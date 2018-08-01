@@ -1,0 +1,21 @@
+.borde-bajo{
+	border-bottom: 1px solid black;
+}
+.borde-derecho{
+	border-right: 1px solid black;
+}
+.barra-sup{
+	height: 3em;
+	padding-top: 0.5em;
+}
+.derecha{
+	text-align: right;
+}
+html{
+	height: 100%;
+	background-color: #bbb;
+}
+body{
+	height: 100%;
+	background-color: #bbb;
+}
