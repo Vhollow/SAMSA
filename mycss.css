@@ -1,9 +1,9 @@
 html{
-	height: 200%;
+	min-height: 100%;
 	background-color: #bbb;
 }
 body{
-	height: 200%;
+	min-height: 100%;
 	background-color: #bbb;
 }
 
@@ -11,12 +11,18 @@ body{
 	position: fixed;
 	top: 0;
 	width: 100%;
-}
-.borde-bajo{
-	border-bottom: 1px solid black;
+	z-index: 2;
 }
 .borde-derecho{
 	border-right: 1px solid black;
+}
+.borde-izquierdo{
+	border-left: 1px solid black;
+}
+.barra{
+	height: 3em;
+	padding-top: 0.5em;
+	border-bottom: 1px solid black;
 }
 .boton-p:hover {
 	background-color: white;
@@ -24,9 +30,14 @@ body{
 .derecha{
 	text-align: right;
 }
-.el-barra-sup{
-	height: 3em;
-	padding-top: 0.5em;
+.menu{
+	border-left: 1px solid black;
+	padding-top: 3em;
+	position: fixed;
+	top: 0;
+	right: 1px;
+	height: 100%;
+	z-index: 1;
 }
 
 
