@@ -1,3 +1,24 @@
+@font-face{
+	font-family: 'buro';
+	src: url('Recursos/Tipografía/Referencias/Buro/01_Büro.ttf');
+}
+@font-face{
+	font-family: 'hiroshima';
+	src: url('Recursos/Tipografía/Referencias/Buro/01_Hiroshima.ttf');
+}
+@font-face{
+	font-family: 'samsa';
+	src: url('Recursos/Tipografía/Referencias/Buro/SAMSA Variable Font/SAMSA_Variable_Font.ttf');
+}
+@font-face{
+	font-family: 'union-italic';
+	src: url('Recursos/Tipografía/Referencias/Buro/Union Italic/union-regular-italic.otf');
+}
+@font-face{
+	font-family: 'union-regular';
+	src: url('Recursos/Tipografía/Referencias/Buro/Union Regular/union-regular.otf');
+}
+
 html{
 	min-height: 100%;
 	background-color: #bbb;
@@ -5,6 +26,10 @@ html{
 body{
 	min-height: 100%;
 	background-color: #bbb;
+	font-family: union-regular !important;
+}
+div{
+	z-index: 0;
 }
 
 .barra-sup{
@@ -31,8 +56,13 @@ body{
 	text-align: right;
 }
 .elem-cuerpo{
-	height: 6em;
+	height: 270px;
 	border-bottom: 1px solid black;
+}
+.izq-fija{
+	height: 100%;
+	position: fixed;
+	top: 3em;
 }
 .menu{
 	border-left: 1px solid black;
@@ -43,7 +73,6 @@ body{
 	height: 100%;
 	z-index: 1;
 }
-
-
-
-
+.zona-pr{
+	padding-top: 3em;
+}
