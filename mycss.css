@@ -31,7 +31,12 @@ body{
 	line-height: 18.2px;
 	letter-spacing: 0.36px;
 }
-
+.barra{
+	height: 3em;
+	padding-top: 0.75em;
+	border-bottom: 1px solid black;
+	background-color: #ddd;
+}
 .barra-sup{
 	position: fixed;
 	top: 0;
@@ -48,12 +53,6 @@ body{
 .borde-izquierdo{
 	border-left: 1px solid black;
 }
-.barra{
-	height: 3em;
-	padding-top: 0.75em;
-	border-bottom: 1px solid black;
-	background-color: #ddd;
-}
 .boton-p:hover {
 	background-color: white;
 }
@@ -67,6 +66,11 @@ body{
 }
 .elem-cuerpo2{
 	height: 624px;
+	border-bottom: 1px solid black;
+	background-color: #ddd;
+}
+.elem-cuerpo3{
+	height: 156px;
 	border-bottom: 1px solid black;
 	background-color: #ddd;
 }
