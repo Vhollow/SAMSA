@@ -30,6 +30,10 @@ body{
 .derecha{
 	text-align: right;
 }
+.elem-cuerpo{
+	height: 6em;
+	border-bottom: 1px solid black;
+}
 .menu{
 	border-left: 1px solid black;
 	padding-top: 3em;
