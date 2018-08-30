@@ -14,12 +14,15 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
+
+        <script src="https://d3js.org/d3.v5.min.js"></script>
         
 	<link rel="stylesheet" href="../mycss.css">
 	<script type="text/javascript" src="../Recursos/Javascript/menu.js"></script>
+	<script type="text/javascript" src="../Recursos/Javascript/simulacion.js"></script>
 
 </head>
-<body>
+<body onload="init()">
 	<div class="container-fluid">
 
 		<!-- Barra superior -->
@@ -32,22 +35,19 @@
 		<div class="row" style="height:100%">
 			<div class="col-lg-4 col-md-6 col-12 menu" id="menu" >
 					<div class="row"> 
-						<div class="barra col boton-p"> Sobre el proyecto</div>
+						<div class="barra col boton-p"> PROYECTO</div>
 					</div>
 					<div class="row"> 
-						<div class="barra col boton-p"> Fundamentación </div>
+						<div class="barra col boton-p"> TIPOGRAFÍA </div>
 					</div>
 					<div class="row"> 
-						<div class="barra col boton-p"> SAMSA Variable Font</div>
+						<div class="barra col boton-p"> EXPLORATORIO </div>
 					</div>
 					<div class="row"> 
-						<div class="barra col boton-p"> Aplicación práctica</div>
-					</div>
-					<div class="row"> 
-						<div class="barra col boton-p"> Contacto </div>
+						<div class="barra col boton-p"> CONTACTO </div>
 					</div>
 					<div class="row">
-						<div class="col barra boton-p"> Redes sociales </div>
+						<div class="col barra boton-p"> REDES SOCIALES </div>
 						<div class="col barra boton-p borde-izquierdo"> Facebook </div>
 					</div>
 					<div class="row">
@@ -55,6 +55,14 @@
 					</div>
 					<div class="row">
 						<div class="col-lg-6 offset-lg-6 barra boton-p borde-izquierdo"> Twitter </div>
+					</div>
+					<div class="bajo">
+						<div class="row"> 
+							<div class="barra col boton-p borde-alto"> ES </div>
+						</div>
+						<div class="row"> 
+							<div class="barra col boton-p"> EN</div>
+						</div>
 					</div>
 			</div>
 		</div>
@@ -73,31 +81,29 @@
 
 			<!-- Primera fila -->
 			<div class="col-12 elem-cuerpo">
-				
-				<div class="SAMSA"> AAAAA </div>
-
+				<svg id="i1" onmousemove="cambiaGrosor(event)"></svg>
 			</div>
 
 			<!-- Segunda fila -->
-			<div class="col-lg-4 col-md-6 col-12 elem-cuerpo2"></div>
-			<div class="col-lg-8 col-md-6 col-12 elem-cuerpo2 borde-izquierdo"></div>
+			<div class="col-lg-4 col-md-6 col-12 elem-cuerpo2"><svg id="i2" onmousemove="cambiaAltura(event)"></svg></div>
+			<div class="col-lg-8 col-md-6 col-12 elem-cuerpo2 borde-izquierdo"><svg id="i3" onmousemove="cambiaAnchura(event)"></svg></div>
 
 			<!-- Tercera fila -->
-			<div class="col-lg-4 col-md-6 col-12 elem-cuerpo2"></div>
-			<div class="col-lg-8 col-md-6 col-12 elem-cuerpo2 borde-izquierdo"></div>
+			<div class="col-lg-4 col-md-6 col-12 elem-cuerpo2"><svg id="i4" onmousemove=""></svg></div>
+			<div class="col-lg-8 col-md-6 col-12 elem-cuerpo2 borde-izquierdo"><svg id="i5" onmousemove="cambiaAnAl(event)"></svg></div>
 
 			<!-- Cuarta fila -->
-			<div class="col-lg-8 col-md-6 col-12 elem-cuerpo2"></div>
-			<div class="col-lg-4 col-md-6 col-12 elem-cuerpo2 borde-izquierdo"></div>
+			<div class="col-lg-8 col-md-6 col-12 elem-cuerpo2"><svg id="i6" onmousemove="cambiaTamaño(event)"></svg></div>
+			<div class="col-lg-4 col-md-6 col-12 elem-cuerpo2 borde-izquierdo"><svg id="i7" onmousemove=""></svg></div>
 
 			<!-- Quinta fila -->
 			<div class="col-lg-8 col-md-6 col-12 elem-cuerpo2">
 				<div class="row">
-					<div class="col-12 elem-cuerpo"></div>
-					<div class="col-12 elem-cuerpo"></div>
+					<div class="col-12 elem-cuerpo"><svg id="i8" onmousemove="cambiaTransfigura(event)"></svg></div>
+					<div class="col-12 elem-cuerpo"><svg id="i9" onmousemove=""></svg>></div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-6 col-12 borde-izquierdo elem-cuerpo2"></div>
+			<div class="col-lg-4 col-md-6 col-12 borde-izquierdo elem-cuerpo2"><svg id="i10" onmousemove=""></svg></div>
 
 			<!-- Sexta fila -->
 			<div class="col-12 elem-cuerpo2"></div>
