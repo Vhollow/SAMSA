@@ -19,7 +19,6 @@
         
 	<link rel="stylesheet" href="../mycss.css">
 	<script type="text/javascript" src="../Recursos/Javascript/menu.js"></script>
-	<script type="text/javascript" src="../Recursos/Javascript/simulacion.js"></script>
 
 </head>
 <body onload="init()">
@@ -27,8 +26,9 @@
 
 		<!-- Barra superior -->
 		<div class="row barra-sup">
-			<div class="col-lg-8 col-md-6 col-12 borde-derecho barra"> SAMSA Variable Font </div>
-			<div class="col-lg-4 col-md-6 col-12 derecha barra boton-p" id="botMenu" onclick="extenderMenu()">  <img class="icono" src="../Recursos/Iconos/Menú.png"> </div>
+			<div class="col-lg-4 col-md-4 col-12 borde-derecho barra"> SAMSA Variable Font </div>
+			<div class="col-lg-4 col-md-4 col-12 borde-derecho barra"> TIPOGRAFÍA </div>
+			<div class="col-lg-4 col-md-4 col-12 derecha barra boton-p" id="botMenu" onclick="extenderMenu()">  <img class="icono" src="../Recursos/Iconos/Menú.png"> </div>
 		</div>
 
 		<!-- Menu -->
@@ -70,14 +70,14 @@
 
 		<!-- Zona principal -->
 		<div class="row zona-pr">
-			<div class="col-lg-4 elem-cuerpo borde-derecho"> El vínculo que posee la tipografía con el diseño gráfico nos sugiere que cualquier cambio importante en uno de sendos ámbitos afectará inevitablemente al desarrollo del otro. -la tipografía siempre ha estado ligada a la tecnología de cada época siendo ahora el turno de las fuentes variables y sus capacidades interactivas en entornos digitales. El planteamiento del proyecto es construir una fuente esquemática de carácter educativo capaz de mostrar las posibilidades formales que ofrece la tecnología OpenType Variable Fonts.</div>
-			<div class="col-lg-4 elem-cuerpo borde-derecho">
+			<div class="col-lg-4 elem-cuerpo3 borde-derecho" style="padding-top: 10px;"> SAMSA es una tipografía variable de caracter educativo capaz de mostrar las posibilidades formales que ofrece la tecnología OpenType Variable Fonts</div>
+			<div class="col-lg-4 elem-cuerpo3 borde-derecho">
 				<div class="row">
 					<div class="col barra "> Visualizacion </div>
-					<div class="col barra boton-p borde-izquierdo"> Gris <img class="icono" src="../Recursos/Iconos/Abrir.png"> </div>
+					<div class="col barra boton-p borde-izquierdo"> Positivo <img class="icono" src="../Recursos/Iconos/Abrir.png"> </div>
 				</div>
 			</div>
-			<div class="col-lg-4 elem-cuerpo"></div>
+			<div class="col-lg-4 elem-cuerpo3"></div>
 
 			<!-- Primera fila -->
 			<div class="col-12 elem-cuerpo">
@@ -89,7 +89,7 @@
 			<div class="col-lg-8 col-md-6 col-12 elem-cuerpo2 borde-izquierdo"><svg id="i3" onmousemove="cambiaAnchura(event)"></svg></div>
 
 			<!-- Tercera fila -->
-			<div class="col-lg-4 col-md-6 col-12 elem-cuerpo2"><svg id="i4" onmousemove=""></svg></div>
+			<div class="col-lg-4 col-md-6 col-12 elem-cuerpo2"><svg id="i4" onmousemove="cambiaGroAn(event)"></svg></div>
 			<div class="col-lg-8 col-md-6 col-12 elem-cuerpo2 borde-izquierdo"><svg id="i5" onmousemove="cambiaAnAl(event)"></svg></div>
 
 			<!-- Cuarta fila -->
@@ -100,18 +100,24 @@
 			<div class="col-lg-8 col-md-6 col-12 elem-cuerpo2">
 				<div class="row">
 					<div class="col-12 elem-cuerpo"><svg id="i8" onmousemove="cambiaTransfigura(event)"></svg></div>
-					<div class="col-12 elem-cuerpo"><svg id="i9" onmousemove=""></svg>></div>
+					<div class="col-12 elem-cuerpo"><svg id="i9" onmousemove="cambiaGiro(event)"></svg>></div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-6 col-12 borde-izquierdo elem-cuerpo2"><svg id="i10" onmousemove=""></svg></div>
+			<div class="col-lg-4 col-md-6 col-12 borde-izquierdo elem-cuerpo2"><svg id="i10" onmousemove="cambiaReorga(event)"></svg></div>
 
 			<!-- Sexta fila -->
-			<div class="col-12 elem-cuerpo2"></div>
+			<div class="col-12 elem-cuerpo2"><svg id="i11" onmousemove="cambiaPosicion(event)"></svg></div>
 
 			<!-- Septima fila -->
-			<div class="col-12 elem-cuerpo2"></div>
+			<div class="col-12 elem-cuerpo2 ">
+				<!--<div id="formcontainer">
+					<input type="range" class="slider " id="wdht" min="100" max="700" step="1" value="100">
+				</div>-->
+			</div>
 
 		</div>
 	</div>
+
+	<script type="text/javascript" src="../Recursos/Javascript/simulacion.js"></script>
 </body>
 </html>

@@ -21,11 +21,12 @@
 
 html{
 	min-height: 100%;
-	background-color: #ddd;
+	height: 100%;
+	background-color: #e7e7e7;
 }
 body{
 	min-height: 100%;
-	background-color: #ddd;
+	background-color: #e7e7e7;
 	font-family: union-regular !important;
 	font-size: 14px;
 	line-height: 18.2px;
@@ -39,14 +40,20 @@ svg{
 	height: 3em;
 	padding-top: 0.75em;
 	border-bottom: 1px solid black;
-	background-color: #ddd;
+	background-color: #e7e7e7;
 }
 .barra-sup{
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 3;
-	background-color: #ddd;
+	background-color: #e7e7e7;
+}
+.barra-inf{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #e7e7e7;
 }
 .bajo{
 	position: absolute;
@@ -74,7 +81,7 @@ svg{
 .elem-cuerpo{
 	height: 312px;
 	border-bottom: 1px solid black;
-	background-color: #ddd;
+	background-color: #e7e7e7;
 }
 .elem-cuerpo:hover{
 	background-color: white;
@@ -82,7 +89,7 @@ svg{
 .elem-cuerpo2{
 	height: 624px;
 	border-bottom: 1px solid black;
-	background-color: #ddd;
+	background-color: #e7e7e7;
 }
 .elem-cuerpo2:hover{
 	background-color: white;
@@ -90,13 +97,13 @@ svg{
 .elem-cuerpo3{
 	height: 156px;
 	border-bottom: 1px solid black;
-	background-color: #ddd;
+	background-color: #e7e7e7;
 }
 .elem-cuerpo3:hover{
 	background-color: white;
 }
 .icono{
-	height: 1em;
+	height: 14px;
 	position: absolute;
 	right: 15px;
 }
@@ -111,7 +118,7 @@ svg{
 }
 .menu{
 	border-left: 1px solid black;
-	background-color: #ddd;
+	background-color: #e7e7e7;
 	padding-top: 3em;
 	position: fixed;
 	top: 0;
@@ -130,11 +137,28 @@ svg{
 	overflow: hidden;
 	transition: 0.7s;
 }
+.menu3{
+	height: 0;
+	overflow: hidden;
+	transition: 0.7s;
+}
 .SAMSA{
 	font-family: samsa;
-	font-weight: 400;
-	font-width:200;
+	font-size: 100vh;
+	font-variation-settings:"altu" 100,"anch"100,"gros"800;
+}
+.BURO{
+	padding-top: 30%;
+	font-family: buro;
+	font-size: 50vh;
+	font-variation-settings:"altu" 300;
 }
 .zona-pr{
 	padding-top: 3em;
+}
+
+.pSiguiente{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
 }
