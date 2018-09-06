@@ -3,12 +3,14 @@
 */
 
 function extenderMenu() {
-	document.getElementById('menu').style.height='100%';
+	document.getElementById('menu').style.padding='3em 15px 0 15px';
+	document.getElementById('menu').style.width='100%';
 	document.getElementById('botMenu').setAttribute('onclick','ocultarMenu()');
 }
 
 function ocultarMenu() {
-	document.getElementById('menu').style.height='0';
+	document.getElementById('menu').style.width='0';
+	document.getElementById('menu').style.padding='3em 0 0 0';
 	document.getElementById('botMenu').setAttribute('onclick','extenderMenu()');
 }
 

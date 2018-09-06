@@ -22,13 +22,14 @@
 html{
 	min-height: 100%;
 	height: 100%;
-	background-color: #e7e7e7;
+	background-color: white;
 }
 body{
 	min-height: 100%;
-	background-color: #e7e7e7;
+	background-color: white;
 	font-family: union-regular !important;
 	font-size: 14px;
+	color: black;
 	line-height: 18.2px;
 	letter-spacing: 0.36px;
 }
@@ -40,20 +41,20 @@ svg{
 	height: 3em;
 	padding-top: 0.75em;
 	border-bottom: 1px solid black;
-	background-color: #e7e7e7;
+	background-color: white;
 }
 .barra-sup{
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 3;
-	background-color: #e7e7e7;
+	background-color: white;
 }
 .barra-inf{
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	background-color: #e7e7e7;
+	background-color: white;
 }
 .bajo{
 	position: absolute;
@@ -73,7 +74,7 @@ svg{
 	border-left: 1px solid black;
 }
 .boton-p:hover {
-	background-color: white;
+	mix-blend-mode: difference;
 }
 .derecha{
 	text-align: right;
@@ -81,7 +82,7 @@ svg{
 .elem-cuerpo{
 	height: 312px;
 	border-bottom: 1px solid black;
-	background-color: #e7e7e7;
+	background-color: white;
 }
 .elem-cuerpo:hover{
 	background-color: white;
@@ -89,7 +90,7 @@ svg{
 .elem-cuerpo2{
 	height: 624px;
 	border-bottom: 1px solid black;
-	background-color: #e7e7e7;
+	background-color: white;
 }
 .elem-cuerpo2:hover{
 	background-color: white;
@@ -97,9 +98,6 @@ svg{
 .elem-cuerpo3{
 	height: 156px;
 	border-bottom: 1px solid black;
-	background-color: #e7e7e7;
-}
-.elem-cuerpo3:hover{
 	background-color: white;
 }
 .icono{
@@ -118,15 +116,18 @@ svg{
 }
 .menu{
 	border-left: 1px solid black;
-	background-color: #e7e7e7;
+	background-color: white;
 	padding-top: 3em;
+	padding-left: 0;
+	padding-right: 0;
 	position: fixed;
 	top: 0;
 	right: 1px;
-	height: 0;
+	height: 100%;
+	width: 0;
 	overflow: hidden;
 	z-index: 2;
-	transition: 0.7s;
+	transition: 0.9s;
 }
 .menu2{
 	position: fixed;
@@ -148,7 +149,7 @@ svg{
 	font-variation-settings:"altu" 100,"anch"100,"gros"800;
 }
 .BURO{
-	padding-top: 30%;
+	padding-top: 20%;
 	font-family: buro;
 	font-size: 50vh;
 	font-variation-settings:"altu" 300;

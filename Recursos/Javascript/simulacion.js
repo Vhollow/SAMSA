@@ -20,16 +20,18 @@ function init(){
 
 function grosor(){
 	var lien = d3.select('#i1');
+	var w=parseInt(lien.style('width'));
 	var h=parseInt(lien.style('height'));
-	for (var i = 9; i >= 0; i--) {
+	var margen = (w - 940)/2;
+	for (var i = 7; i >= 0; i--) {
 		lien.append("rect")
-		.attr("x",120*i+28)
+		.attr("x",120*i+margen)
 		.attr("y",h-114)
 		.attr("width", 100)
 		.attr("height",100)
 		.attr('fill', 'rgba(0,0,0,0)')
 		.attr("stroke","black")
-		.attr("stroke-width",10)
+		.attr("stroke-width",5)
 		.attr("id",'_'+i);
 	}
 	
@@ -38,13 +40,14 @@ function cambiaGrosor(e){
 	var lien = d3.select('#i1');
 	var h=parseInt(lien.style('height'));
 	var w=parseInt(lien.style('width'));
+	var margen = (w - 940)/2;
 	var x=parseInt(e.clientX);
 	var dis=[0,0,0,0,0,0,0,0,0,0];
-	for (var i = 9; i >= 0; i--) {
+	for (var i = 7; i >= 0; i--) {
 		dis[i]=	Math.sqrt((lien.select('#_'+i).attr('x')-x)*(lien.select('#_'+i).attr('x')-x));
-		var n_width = ((w-dis[i])*40/w);
-		lien.select("#_"+i).attr("stroke-width",n_width+10)
-			.attr("x",120*i+28+n_width/2)
+		var n_width = ((w-dis[i])*15/w);
+		lien.select("#_"+i).attr("stroke-width",n_width+5)
+			.attr("x",120*i+margen+n_width/2)
 			.attr('y',h-119+n_width/2)
 			.attr('height',100-n_width)
 			.attr('width',100-n_width);
@@ -236,7 +239,7 @@ function cambiaTamaño(e){
 function transfigura(){
 	var lien = d3.select('#i8');
 	var h=parseInt(lien.style('height'));
-	for (var i = 9; i >= 0; i--) {
+	for (var i = 7; i >= 0; i--) {
 		lien.append("rect")
 		.attr("x",90*i+28)
 		.attr("y",h-114)
@@ -255,7 +258,7 @@ function cambiaTransfigura(e){
 	var w=parseInt(lien.style('width'));
 	var x=parseInt(e.clientX);
 	var dis=[0,0,0,0,0,0,0,0,0,0];
-	for (var i = 9; i >= 0; i--) {
+	for (var i = 7; i >= 0; i--) {
 		dis[i]=	Math.sqrt((lien.select('#_'+60+i).attr('x')-x+25)*(lien.select('#_'+60+i).attr('x')-x+25));
 		var n_width = ((dis[i])/w);
 		lien.select("#_"+60+i).attr('rx',40*n_width).attr('ry',40*n_width);
@@ -319,7 +322,7 @@ function cambiaReorga(e){
 function posicion(){
 	var lien = d3.select('#i11');
 	var h=parseInt(lien.style('height'));
-	for (var i = 9; i >= 0; i--) {
+	for (var i = 7; i >= 0; i--) {
 		lien.append("rect")
 		.attr("x",120*i+28)
 		.attr("y",h-114)
@@ -337,7 +340,7 @@ function cambiaPosicion(e){
 	var w=parseInt(lien.style('width'));
 	var x=parseInt(e.clientX);
 	var dis=[0,0,0,0,0,0,0,0,0,0];
-	for (var i = 9; i >= 0; i--) {
+	for (var i = 7; i >= 0; i--) {
 		dis[i]=	Math.sqrt((lien.select('#_'+80+i).attr('x')-x)*(lien.select('#_'+80+i).attr('x')-x));
 		var n = 1-(Math.sqrt((dis[i])/w));
 		lien.select("#_"+80+i).attr('transform','translate(0,'+(-n)*(h-162)+')');
