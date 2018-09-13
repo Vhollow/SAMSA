@@ -4,7 +4,7 @@
 }
 @font-face{
 	font-family: 'hiroshima';
-	src: url('Recursos/Tipografía/Referencias/Buro/01_Hiroshima.ttf');
+	src: url('Recursos/Tipografía/Referencias/Hiroshima/01_Hiroshima.ttf');
 }
 @font-face{
 	font-family: 'samsa';
@@ -152,14 +152,20 @@ div a{
 }
 .SAMSA{
 	font-family: samsa;
-	font-size: 100vh;
-	font-variation-settings:"altu" 100,"anch"100,"gros"800;
+	font-size: 50vh;
+	font-variation-settings:"altu" 100,"anch"100,"gros"500;
 }
 .BURO{
 	padding-top: 20%;
 	font-family: buro;
 	font-size: 50vh;
 	font-variation-settings:"altu" 300;
+}
+.HIROSHIMA{
+	padding-top: 20%;
+	font-family: hiroshima;
+	font-size: 50vh;
+	font-variation-settings:"anch" 800;
 }
 .zona-pr{
 	padding-top: 3em;
@@ -169,4 +175,7 @@ div a{
 	position: absolute;
 	bottom: 10px;
 	right: 10px;
+}
+.deshab{
+	color: gray;
 }

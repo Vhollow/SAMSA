@@ -9,7 +9,7 @@ function init(){
 	groAn();
 	anAl();
 	tamaño();
-
+	italica();
 	transfigura();
 	giro();
 	reorga();
@@ -74,7 +74,7 @@ function cambiaAltura(e){
 	var h=parseInt(lien.style('height'));
 	var y=parseInt(e.offsetY);
 	dis = Math.sqrt((h-y)*(h-y));
-	lien.select("#_"+10).attr('height',100+h*dis/800).attr('y',h-124-(h*dis/800));
+	lien.select("#_"+10).attr('height',100+h*dis/850).attr('y',h-124-(h*dis/850));
 }
 
 //Anchura
@@ -187,7 +187,7 @@ function cambiaAnAl(e){
 	var w=parseInt(lien.style('width'));
 	var x=parseInt(e.offsetX);
 	dis2 = Math.sqrt((x)*(x));
-	lien.select("#_"+40).attr('height',100+h*dis/800).attr('y',h-124-(h*dis/800)).attr('width',100+0.8*dis2);;
+	lien.select("#_"+40).attr('height',100+h*dis/850).attr('y',h-124-(h*dis/850)).attr('width',100+0.8*dis2);;
 }
 //Function tamaño
 function tamaño(){
@@ -195,31 +195,40 @@ function tamaño(){
 	var h=parseInt(lien.style('height'));
 	lien.append("rect")
 		.attr("x",28)
-		.attr("y",h-224)
-		.attr("width", 200)
-		.attr("height",200)
+		.attr("y",h-124)
+		.attr("width", 100)
+		.attr("height",100)
 		.attr('fill', 'rgba(0,0,0,0)')
 		.attr("stroke","black")
-		.attr("stroke-width",20)
+		.attr("stroke-width",10)
 		.attr("id",'_'+50);
 		lien.append("rect")
-		.attr("x",228+28)
-		.attr("y",h-224)
-		.attr("width", 200)
-		.attr("height",200)
+		.attr("x",128+28)
+		.attr("y",h-124)
+		.attr("width", 100)
+		.attr("height",100)
 		.attr('fill', 'rgba(0,0,0,0)')
 		.attr("stroke","black")
-		.attr("stroke-width",20)
+		.attr("stroke-width",10)
 		.attr("id",'_'+51);
 		lien.append("rect")
-		.attr("x",456+28)
-		.attr("y",h-224)
-		.attr("width", 200)
-		.attr("height",200)
+		.attr("x",256+28)
+		.attr("y",h-124)
+		.attr("width", 100)
+		.attr("height",100)
 		.attr('fill', 'rgba(0,0,0,0)')
 		.attr("stroke","black")
-		.attr("stroke-width",20)
+		.attr("stroke-width",10)
 		.attr("id",'_'+52);
+		lien.append("rect")
+		.attr("x",384+28)
+		.attr("y",h-124)
+		.attr("width", 100)
+		.attr("height",100)
+		.attr('fill', 'rgba(0,0,0,0)')
+		.attr("stroke","black")
+		.attr("stroke-width",10)
+		.attr("id",'_'+53);
 }
 function cambiaTamaño(e){
 	var lien = d3.select('#i6');
@@ -228,12 +237,73 @@ function cambiaTamaño(e){
 	var x=parseInt(e.offsetX);
 	var dis = Math.sqrt((x)*(x));
 	var n_width = ((dis)*400/w);
-	lien.select("#_"+50).attr('width',200+0.1*(dis-n_width)).attr("x",28+0.1*n_width/2).attr('height',200+0.1*(dis-n_width)).attr('y',h-224-(0.1*dis)+0.1*n_width/2).attr("stroke-width",0.1*n_width+20);
-	lien.select("#_"+51).attr('width',200+0.2*(dis-n_width)).attr("x",228+28+0.1*dis+0.2*n_width/2).attr('height',200+0.2*(dis-n_width)).attr('y',h-224-(0.2*dis)+0.2*n_width/2).attr("stroke-width",0.2*n_width+20);
-	lien.select("#_"+52).attr('width',200+0.3*(dis-n_width)).attr("x",456+28+0.1*dis+0.2*dis+0.3*n_width/2).attr('height',200+0.3*(dis-n_width)).attr('y',h-224-(0.3*dis)+0.3*n_width/2).attr("stroke-width",0.3*n_width+20);
+	lien.select("#_"+50).attr('width',100+0.1*(dis-n_width)-0.01*(dis-n_width)).attr("x",28+0.005*(dis-n_width)).attr('height',100+0.1*(dis-n_width)-0.01*(dis-n_width)).attr('y',h-124-0.1*(dis-n_width)+0.005*(dis-n_width)).attr("stroke-width",0.01*(dis-n_width)+10);
+	lien.select("#_"+51).attr('width',100+0.2*(dis-n_width)-0.02*(dis-n_width)).attr("x",128+28+0.1*(dis-n_width)+0.015*(dis-n_width)).attr('height',100+0.2*(dis-n_width)-0.02*(dis-n_width)).attr('y',h-124-0.2*(dis-n_width)+0.01*(dis-n_width)).attr("stroke-width",0.02*(dis-n_width)+10);
+	lien.select("#_"+52).attr('width',100+0.3*(dis-n_width)-0.03*(dis-n_width)).attr("x",256+28+0.1*(dis-n_width)+0.2*(dis-n_width)+0.03*(dis-n_width)).attr('height',100+0.3*(dis-n_width)-0.03*(dis-n_width)).attr('y',h-124-0.3*(dis-n_width)+0.015*(dis-n_width)).attr("stroke-width",0.03*(dis-n_width)+10);
+	lien.select("#_"+53).attr('width',100+0.4*(dis-n_width)-0.04*(dis-n_width)).attr("x",384+28+0.1*(dis-n_width)+0.2*(dis-n_width)+0.3*(dis-n_width)+0.05*(dis-n_width)).attr('height',100+0.4*(dis-n_width)-0.04*(dis-n_width)).attr('y',h-124-0.4*(dis-n_width)+0.02*(dis-n_width)).attr("stroke-width",0.04*(dis-n_width)+10);
 }
 
 //Italica
+
+function italica(){
+	var lien = d3.select('#i7');
+	var h=parseInt(lien.style('height'));
+	var puntos = [28,h-40,
+					128, h-40,
+					128,40,
+					28,40];
+	var puntos2 = [156,h-40,
+					256, h-40,
+					256,40,
+					156,40];
+	var puntos3 = [284,h-40,
+					384, h-40,
+					384,40,
+					284,40];
+	lien.append('polygon')
+		.attr('fill', 'rgba(0,0,0,0)')
+		.attr("stroke","black")
+		.attr("stroke-width",20)
+		.attr('points',puntos)
+		.attr("id",'_'+54);
+		lien.append('polygon')
+		.attr('fill', 'rgba(0,0,0,0)')
+		.attr("stroke","black")
+		.attr("stroke-width",20)
+		.attr('points',puntos2)
+		.attr("id",'_'+55);
+		lien.append('polygon')
+		.attr('fill', 'rgba(0,0,0,0)')
+		.attr("stroke","black")
+		.attr("stroke-width",20)
+		.attr('points',puntos3)
+		.attr("id",'_'+56);
+
+}
+function cambiaItalica(e){
+	var lien = d3.select('#i7');
+	var w=parseInt(lien.style('width'));
+	var h=parseInt(lien.style('height'));
+	var x=parseInt(e.offsetX);
+	var dis = Math.sqrt((x)*(x));
+	var camb = 0.3* dis;
+	var puntos = [28,h-40,
+					128, h-40,
+					128+camb,40,
+					28+camb,40];
+	var puntos2 = [156,h-40,
+					256, h-40,
+					256+camb,40,
+					156+camb,40];
+	var puntos3 = [284,h-40,
+					384, h-40,
+					384+camb,40,
+					284+camb,40];
+
+	lien.select("#_"+54).attr('points',puntos);
+	lien.select("#_"+55).attr('points',puntos2);
+	lien.select("#_"+56).attr('points',puntos3);
+}
 
 //Transfiguración
 function transfigura(){
@@ -261,6 +331,7 @@ function cambiaTransfigura(e){
 	for (var i = 7; i >= 0; i--) {
 		dis[i]=	Math.sqrt((lien.select('#_'+60+i).attr('x')-x+25)*(lien.select('#_'+60+i).attr('x')-x+25));
 		var n_width = ((dis[i])/w);
+		if(n_width<0.05) n_width=0;
 		lien.select("#_"+60+i).attr('rx',40*n_width).attr('ry',40*n_width);
 	}
 }
@@ -321,10 +392,12 @@ function cambiaReorga(e){
 
 function posicion(){
 	var lien = d3.select('#i11');
+	var w=parseInt(lien.style('width'));
 	var h=parseInt(lien.style('height'));
+	var margen = (w - 940)/2;
 	for (var i = 7; i >= 0; i--) {
 		lien.append("rect")
-		.attr("x",120*i+28)
+		.attr("x",120*i+margen)
 		.attr("y",h-114)
 		.attr("width", 100)
 		.attr("height",100)
@@ -343,6 +416,8 @@ function cambiaPosicion(e){
 	for (var i = 7; i >= 0; i--) {
 		dis[i]=	Math.sqrt((lien.select('#_'+80+i).attr('x')-x)*(lien.select('#_'+80+i).attr('x')-x));
 		var n = 1-(Math.sqrt((dis[i])/w));
+		if(n<0.6) n=0;
+		else n=(n-0.6)/0.4;
 		lien.select("#_"+80+i).attr('transform','translate(0,'+(-n)*(h-162)+')');
 	}
 

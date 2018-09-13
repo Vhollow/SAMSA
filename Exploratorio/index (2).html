@@ -17,6 +17,7 @@
         
 	<link rel="stylesheet" href="../mycss.css">
 	<script type="text/javascript" src="../Recursos/Javascript/menu.js"></script>
+	<script type="text/javascript" src="../Recursos/Javascript/control-fuente.js"></script>
 
 </head>
 <body>
@@ -69,7 +70,7 @@
 
 		<!-- Zona principal -->
 
-		<div class="BURO">BURO</div>
+		<div class="SAMSA" id="fuente">A</div>
 
 
 		<div class="row barra-inf borde-alto">
@@ -82,20 +83,20 @@
 
 				<div class="col-lg-4 borde-derecho"> Altura
 					<div id="formcontainer">
-						<input type="range" class="slider " id="wdht" min="100" max="700" step="1" value="100">
+						<input type="range" class="slider " id="wdht" oninput="cambiaAnch()" min="100" max="400" step="1" value="100">
 					</div>
 				</div>
 				<div class="col-lg-2 borde-derecho">
-					<div class="row"><div class="col barra borde-derecho">Gris</div><div class=" barra col">Blanco</div></div>
-					<div class="row"><div class="col barra borde-derecho">Negro</div><div class=" barra col">Custom</div></div>
+					<div class="row"><div class="col barra borde-derecho deshab">Gris</div><div class=" barra col deshab">Blanco</div></div>
+					<div class="row"><div class="col barra borde-derecho deshab">Negro</div><div class=" barra col deshab">Custom</div></div>
 				</div>
 				<div class="col-lg-2 borde-derecho">
-					<div class="row"><div class="col barra borde-derecho">Gris</div><div class=" barra col">Blanco</div></div>
-					<div class="row"><div class="col barra borde-derecho">Negro</div><div class=" barra col">Custom</div></div>
+					<div class="row"><div class="col barra borde-derecho deshab">Gris</div><div class=" barra col deshab">Blanco</div></div>
+					<div class="row"><div class="col barra borde-derecho deshab">Negro</div><div class=" barra col deshab">Custom</div></div>
 				</div>
 				<div class="col-lg-4 borde-derecho">
-					<div class="row"><div class="col barra borde-derecho">Teclado</div><div class="col barra borde-derecho">Raton</div><div class="col barra borde-derecho">Trackpad</div><div class="col barra borde-derecho">Cámara</div></div>
-					<div class="row"><div class="col barra borde-derecho">Micrófono</div><div class="col barra borde-derecho">Pantalla</div><div class="col barra borde-derecho">Orientacion</div><div class="col barra borde-derecho">Iluminación</div></div>
+					<div class="row"><div class="col barra borde-derecho deshab">Teclado</div><div class="col barra borde-derecho deshab">Raton</div><div class="col barra borde-derecho deshab">Trackpad</div><div class="col barra borde-derecho deshab">Cámara</div></div>
+					<div class="row"><div class="col barra borde-derecho deshab">Micrófono</div><div class="col barra borde-derecho deshab">Pantalla</div><div class="col barra borde-derecho deshab">Orientacion</div><div class="col barra borde-derecho deshab">Iluminación</div></div>
 				</div>
 			</div>
 
