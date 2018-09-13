@@ -14,6 +14,9 @@ function init(){
 	giro();
 	reorga();
 	posicion();
+	formacion();
+	asoDiso();
+	textura();
 }
 
 //Grosor
@@ -423,7 +426,108 @@ function cambiaPosicion(e){
 
 }
 
+//Formacion
 
+function formacion(){
+	var lien = d3.select('#i12');
+	var w=parseInt(lien.style('width'));
+	var h=parseInt(lien.style('height'));
+	var margen = (w - 940)/2;
+	for (var i = 7; i >= 0; i--) {
+		var puntos=[78+120*i,h-40,28+120*i,h-40];
+		lien.append('polyline').attr('stroke-width',10).attr('stroke','black').attr("id",'_l'+10*i).attr('points',puntos).attr('fill','none');
+	}
+}
+
+function cambiaFormacion(e){
+	var lien = d3.select('#i12');
+	var h=parseInt(lien.style('height'));
+	var w=parseInt(lien.style('width'));
+	var x=parseInt(e.clientX);
+	var dis=[0,0,0,0,0,0,0,0,0,0];
+	for (var i = 7; i >= 0; i--) {
+		dis[i]=	Math.sqrt((78+120*i-x)*(78+120*i-x));
+		var n = 1-((dis[i])/w);
+		var puntos=[78+120*i,h-40,28+120*i,h-40];
+		if(n<0.125) {
+			var puntos=[78+120*i,h-40,28+120*i,h-40];
+		}
+		else if(n<0.375) {
+			n=(n-0.125)*4;
+			var puntos=[78+120*i,h-40,28+120*i,h-40,28+120*i,h-40-100*n];
+		}else if(n<0.625) {
+			n=(n-0.375)*4;
+			var puntos=[78+120*i,h-40,28+120*i,h-40,28+120*i,h-140,28+120*i+100*n,h-140];
+		}else if(n<0.875) {
+			n=(n-0.625)*4;
+			var puntos=[78+120*i,h-40,28+120*i,h-40,28+120*i,h-140,28+120*i+100,h-140,28+120*i+100,h-140+100*n];
+		}else if(n<0.9) {
+			n=(n-0.875)*8;
+			var puntos=[78+120*i,h-40,28+120*i,h-40,28+120*i,h-140,28+120*i+100,h-140,28+120*i+100,h-40,128+120*i-50*n,h-40];
+		}else if(n<1) {
+			n=(n-0.875)*8;
+			var puntos=[78+120*i,h-40,28+120*i,h-40,28+120*i,h-140,28+120*i+100,h-140,28+120*i+100,h-40,128+120*i-50,h-40];
+		}
+		lien.select('#_l'+10*i).attr('points',puntos);	
+	}
+}
+
+//Asocia-Disocia
+
+function asoDiso(){
+	var lien = d3.select('#i13');
+	var w=parseInt(lien.style('width'));
+	var h=parseInt(lien.style('height'));
+	var puntos=[78,h-40,28,h-40,28,40,78,40];
+	var puntos1=[78,h-40,128,h-40,128,40,78,40];
+	lien.append('polyline').attr('stroke-width',10).attr('stroke','black').attr("id",'_l100').attr('points',puntos).attr('fill','none');
+		lien.append('polyline').attr('stroke-width',10).attr('stroke','black').attr("id",'_l101').attr('points',puntos1).attr('fill','none');
+}
+
+function cambiaAsoDiso(e){
+	var lien = d3.select('#i13');
+	var w=parseInt(lien.style('width'));
+	var x=parseInt(e.offsetX);
+	var dis = Math.sqrt((x)*(x));
+	dis-=40;
+	if (dis<=0) dis=0;
+	var n = ((dis)/w);
+	lien.select('#_l101').attr('transform','translate('+(n)*(w-140)+',0)');
+}
+
+//Textura
+
+function textura(){
+	var lien = d3.select('#i14');
+	var w=parseInt(lien.style('width'));
+	var h=parseInt(lien.style('height'));
+	var ancho_lin = (w-56)/11;
+	var alt_grande = h - 80;
+	var alt_peq = 2*(w-56)/11;
+	for(var i = 10; i >= 0; i--){
+		if(i>8||i<2) lien.append('line').attr("x1", 28+ancho_lin*(i+1/2)).attr("y1", 40).attr("x2", 28+ancho_lin*(i+1/2)).attr("y2", h-40).attr('stroke-width',ancho_lin+1).attr('stroke','black').attr("id",'_l'+(1000*i));
+		else{
+			lien.append('line').attr("x1", 28+ancho_lin*(i+1/2)).attr("y1", 40).attr("x2", 28+ancho_lin*(i+1/2)).attr("y2", 40+alt_peq).attr('stroke-width',ancho_lin+1).attr('stroke','black').attr("id",'_l'+(1+1000*i));
+			lien.append('line').attr("x1", 28+ancho_lin*(i+1/2)).attr("y1", h-40-alt_peq).attr("x2", 28+ancho_lin*(i+1/2)).attr("y2", h-40).attr('stroke-width',ancho_lin+1).attr('stroke','black').attr("id",'_l'+(2+1000*i));
+		}
+	}
+	
+}
+function cambiaTextura(e){
+	var lien = d3.select('#i14');
+	var w=parseInt(lien.style('width'));
+	var ancho_lin = (w-56)/11;
+	var x=parseInt(e.offsetX);
+	var dis = Math.sqrt((x)*(x));
+	var n = dis/w;
+	for(var i = 10; i >= 0; i--){
+		if(i>8||i<2) lien.select('#_l'+(1000*i)).attr('stroke-width',ancho_lin/2+2+n*ancho_lin/2);
+		else{
+			lien.select('#_l'+(1+1000*i)).attr('stroke-width',ancho_lin/2+2+n*ancho_lin/2);
+			lien.select('#_l'+(2+1000*i)).attr('stroke-width',ancho_lin/2+2+n*ancho_lin/2);
+		}
+	}
+}
 
 /*const container = document.getElementById('formcontainer');
 function setStyles (property, value) {

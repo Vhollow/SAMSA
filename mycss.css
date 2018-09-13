@@ -155,6 +155,11 @@ div a{
 	font-size: 50vh;
 	font-variation-settings:"altu" 100,"anch"100,"gros"500;
 }
+.SAMSA1{
+	font-family: samsa;
+	font-size: 100;
+	font-variation-settings:"altu" 100,"anch"100,"gros"100;
+}
 .BURO{
 	padding-top: 20%;
 	font-family: buro;
