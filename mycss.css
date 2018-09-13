@@ -22,11 +22,11 @@
 html{
 	min-height: 100%;
 	height: 100%;
-	background-color: #f4f3f0;
+	background-color: #f0efec;
 }
 body{
 	min-height: 100%;
-	background-color: #f4f3f0;
+	background-color: #f0efec;
 	font-family: union-regular !important;
 	font-size: 14px;
 	color: black;
@@ -48,20 +48,21 @@ div a{
 	height: 3em;
 	padding-top: 0.75em;
 	border-bottom: 1px solid black;
-	background-color: #f4f3f0;
+	background-color: #f0efec;
 }
 .barra-sup{
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 3;
-	background-color: #f4f3f0;
+	background-color: #f0efec;
+	
 }
 .barra-inf{
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	background-color: #f4f3f0;
+	background-color: #f0efec;
 }
 .bajo{
 	position: absolute;
@@ -80,8 +81,15 @@ div a{
 .borde-izquierdo{
 	border-left: 1px solid black;
 }
+.boton-p {
+	background-color: #f0efec;
+	-webkit-transition: background-color 1s ease-out;
+	-moz-transition: background-color 1s ease-out;
+	-o-transition: background-color 1s ease-out;
+	transition: background-color 1s ease-out;
+}
 .boton-p:hover {
-	mix-blend-mode: difference;
+	background-color:white;
 }
 .derecha{
 	text-align: right;
@@ -123,7 +131,7 @@ div a{
 }
 .menu{
 	border-left: 1px solid black;
-	background-color: #f4f3f0;
+	background-color: #f0efec;
 	padding-top: 3em;
 	padding-left: 0;
 	padding-right: 0;
