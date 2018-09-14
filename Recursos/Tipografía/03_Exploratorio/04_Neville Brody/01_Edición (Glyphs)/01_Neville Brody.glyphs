@@ -1,0 +1,818 @@
+{
+.appVersion = "1161";
+copyright = "Copyright © 2018 by David Reglero. All rights reserved. Original artwork by Neville Brody.";
+customParameters = (
+{
+name = Axes;
+value = (
+{
+Name = "Tamaño";
+Tag = tama;
+}
+);
+}
+);
+date = "2018-03-06 01:04:39 +0000";
+designer = "David Reglero";
+familyName = "Neville Brody";
+fontMaster = (
+{
+ascender = 1504;
+capHeight = 0;
+custom = "Pequeño";
+customValue = 100;
+descender = 0;
+id = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+visible = 1;
+weightValue = 300;
+widthValue = 300;
+xHeight = 0;
+},
+{
+ascender = 1704;
+capHeight = 0;
+custom = Grande;
+customValue = 800;
+descender = 0;
+id = "3443F240-5BDF-4DAF-8294-94446422B13B";
+visible = 1;
+weightValue = 800;
+widthValue = 300;
+xHeight = 0;
+}
+);
+glyphs = (
+{
+glyphname = S;
+lastChange = "2018-09-03 15:16:35 +0000";
+layers = (
+{
+layerId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+paths = (
+{
+closed = 1;
+nodes = (
+"1065 1313 OFFCURVE",
+"889 1328 OFFCURVE",
+"797 1322 CURVE SMOOTH",
+"688 1315 OFFCURVE",
+"648 1279 OFFCURVE",
+"641 1261 CURVE SMOOTH",
+"634 1243 OFFCURVE",
+"641 1209 OFFCURVE",
+"675 1185 CURVE SMOOTH",
+"709 1161 OFFCURVE",
+"806 1138 OFFCURVE",
+"940 1123 CURVE SMOOTH",
+"1128 1102 OFFCURVE",
+"1326 1041 OFFCURVE",
+"1380 1012 CURVE SMOOTH",
+"1462 968 OFFCURVE",
+"1545 903 OFFCURVE",
+"1603 791 CURVE SMOOTH",
+"1651 699 OFFCURVE",
+"1687 521 OFFCURVE",
+"1603 353 CURVE SMOOTH",
+"1519 185 OFFCURVE",
+"1391 128 OFFCURVE",
+"1306 88 CURVE SMOOTH",
+"1221 48 OFFCURVE",
+"1030 4 OFFCURVE",
+"910 4 CURVE SMOOTH",
+"790 4 OFFCURVE",
+"548 0 OFFCURVE",
+"362 97 CURVE SMOOTH",
+"105 231 OFFCURVE",
+"51 386 OFFCURVE",
+"1 530 CURVE",
+"504 581 LINE",
+"526 490 OFFCURVE",
+"598 436 OFFCURVE",
+"693 413 CURVE SMOOTH",
+"790 389 OFFCURVE",
+"975 391 OFFCURVE",
+"1031 417 CURVE SMOOTH",
+"1087 443 OFFCURVE",
+"1102 495 OFFCURVE",
+"1078 518 CURVE SMOOTH",
+"1009 585 OFFCURVE",
+"930 575 OFFCURVE",
+"675 627 CURVE SMOOTH",
+"420 679 OFFCURVE",
+"310 744 OFFCURVE",
+"213 837 CURVE SMOOTH",
+"116 930 OFFCURVE",
+"44 1147 OFFCURVE",
+"149 1371 CURVE SMOOTH",
+"254 1595 OFFCURVE",
+"542 1671 OFFCURVE",
+"648 1685 CURVE SMOOTH",
+"754 1699 OFFCURVE",
+"1065 1721 OFFCURVE",
+"1294 1597 CURVE SMOOTH",
+"1523 1473 OFFCURVE",
+"1578 1313 OFFCURVE",
+"1599 1250 CURVE",
+"1118 1172 LINE"
+);
+}
+);
+width = 1621;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "4600935A-B46E-4FA1-B0D6-4EE271FC1662";
+name = "new Layer";
+width = 600;
+},
+{
+layerId = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+paths = (
+{
+closed = 1;
+nodes = (
+"1438 995 OFFCURVE",
+"1386 999 OFFCURVE",
+"1359 998 CURVE SMOOTH",
+"1327 997 OFFCURVE",
+"1314 985 OFFCURVE",
+"1312 979 CURVE SMOOTH",
+"1310 974 OFFCURVE",
+"1312 964 OFFCURVE",
+"1323 957 CURVE SMOOTH",
+"1333 951 OFFCURVE",
+"1361 943 OFFCURVE",
+"1401 939 CURVE SMOOTH",
+"1457 933 OFFCURVE",
+"1516 914 OFFCURVE",
+"1532 906 CURVE SMOOTH",
+"1558 893 OFFCURVE",
+"1581 873 OFFCURVE",
+"1598 840 CURVE SMOOTH",
+"1612 813 OFFCURVE",
+"1623 760 OFFCURVE",
+"1598 710 CURVE SMOOTH",
+"1573 660 OFFCURVE",
+"1535 643 OFFCURVE",
+"1510 631 CURVE SMOOTH",
+"1484 619 OFFCURVE",
+"1428 606 OFFCURVE",
+"1392 606 CURVE SMOOTH",
+"1356 606 OFFCURVE",
+"1285 605 OFFCURVE",
+"1230 633 CURVE SMOOTH",
+"1153 672 OFFCURVE",
+"1138 720 OFFCURVE",
+"1123 762 CURVE",
+"1271 778 LINE",
+"1279 750 OFFCURVE",
+"1299 734 OFFCURVE",
+"1328 728 CURVE SMOOTH",
+"1356 722 OFFCURVE",
+"1412 721 OFFCURVE",
+"1428 729 CURVE SMOOTH",
+"1445 737 OFFCURVE",
+"1449 752 OFFCURVE",
+"1442 759 CURVE SMOOTH",
+"1422 779 OFFCURVE",
+"1398 776 OFFCURVE",
+"1323 791 CURVE SMOOTH",
+"1247 806 OFFCURVE",
+"1215 826 OFFCURVE",
+"1186 854 CURVE SMOOTH",
+"1157 882 OFFCURVE",
+"1135 946 OFFCURVE",
+"1167 1012 CURVE SMOOTH",
+"1199 1078 OFFCURVE",
+"1283 1101 OFFCURVE",
+"1315 1105 CURVE SMOOTH",
+"1346 1109 OFFCURVE",
+"1438 1116 OFFCURVE",
+"1506 1080 CURVE SMOOTH",
+"1574 1044 OFFCURVE",
+"1591 995 OFFCURVE",
+"1597 976 CURVE",
+"1454 953 LINE"
+);
+}
+);
+width = 1621;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "CC6B688D-1503-45C7-857B-764D5532785F";
+name = "new Layer";
+width = 600;
+}
+);
+unicode = 0053;
+},
+{
+glyphname = a;
+lastChange = "2018-06-27 11:06:48 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 0}, {834.84, 568.44}}";
+imagePath = "../00_Recursos/Nike just slam it.jpg";
+locked = "1";
+transform = "{3.433, 0, 0, 3.433, -2077, -135}";
+};
+layerId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+paths = (
+{
+closed = 1;
+nodes = (
+"348 495 OFFCURVE",
+"340 503 OFFCURVE",
+"341 542 CURVE SMOOTH",
+"346 720 LINE",
+"346 749 OFFCURVE",
+"348 769 OFFCURVE",
+"337 808 CURVE SMOOTH",
+"326 848 OFFCURVE",
+"295 872 OFFCURVE",
+"253 883 CURVE SMOOTH",
+"204 896 OFFCURVE",
+"142 901 OFFCURVE",
+"112 896 CURVE SMOOTH",
+"75 889 OFFCURVE",
+"45 890 OFFCURVE",
+"12 870 CURVE SMOOTH",
+"-22 849 OFFCURVE",
+"-43 811 OFFCURVE",
+"-54 774 CURVE",
+"83 757 LINE",
+"83 757 OFFCURVE",
+"92 794 OFFCURVE",
+"121 799 CURVE SMOOTH",
+"151 805 OFFCURVE",
+"172 797 OFFCURVE",
+"180 792 CURVE SMOOTH",
+"189 786 OFFCURVE",
+"192 776 OFFCURVE",
+"192 769 CURVE SMOOTH",
+"192 745 LINE",
+"192 745 OFFCURVE",
+"78 745 OFFCURVE",
+"13 718 CURVE SMOOTH",
+"-51 691 OFFCURVE",
+"-89 652 OFFCURVE",
+"-89 597 CURVE SMOOTH",
+"-89 527 OFFCURVE",
+"-39 489 OFFCURVE",
+"17 478 CURVE SMOOTH",
+"71 466 OFFCURVE",
+"119 471 OFFCURVE",
+"148 489 CURVE SMOOTH",
+"178 508 OFFCURVE",
+"182 520 OFFCURVE",
+"193 531 CURVE SMOOTH",
+"193 531 OFFCURVE",
+"195 488 OFFCURVE",
+"198 476 CURVE",
+"351 471 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"182 592 OFFCURVE",
+"171 579 OFFCURVE",
+"147 571 CURVE SMOOTH",
+"123 562 OFFCURVE",
+"100 572 OFFCURVE",
+"94 581 CURVE SMOOTH",
+"87 590 OFFCURVE",
+"83 618 OFFCURVE",
+"100 639 CURVE SMOOTH",
+"120 664 OFFCURVE",
+"189 668 OFFCURVE",
+"189 668 CURVE",
+"187 617 LINE"
+);
+}
+);
+width = 400;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "4600935A-B46E-4FA1-B0D6-4EE271FC1662";
+name = "new Layer";
+width = 600;
+},
+{
+backgroundImage = {
+crop = "{{0, 0}, {834.84, 568.44}}";
+imagePath = "../00_Recursos/Nike just slam it.jpg";
+transform = "{3.433, 0, 0, 3.433, -2077, -135}";
+};
+layerId = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+paths = (
+{
+closed = 1;
+nodes = (
+"283 555 OFFCURVE",
+"277 561 OFFCURVE",
+"278 589 CURVE SMOOTH",
+"281 715 LINE",
+"281 736 OFFCURVE",
+"284 750 OFFCURVE",
+"276 778 CURVE SMOOTH",
+"268 806 OFFCURVE",
+"245 823 OFFCURVE",
+"216 831 CURVE SMOOTH",
+"181 841 OFFCURVE",
+"137 844 OFFCURVE",
+"115 841 CURVE SMOOTH",
+"89 838 OFFCURVE",
+"68 836 OFFCURVE",
+"44 822 CURVE SMOOTH",
+"20 808 OFFCURVE",
+"5 780 OFFCURVE",
+"-3 754 CURVE",
+"94 741 LINE",
+"94 741 OFFCURVE",
+"101 768 OFFCURVE",
+"122 771 CURVE SMOOTH",
+"143 774 OFFCURVE",
+"158 770 OFFCURVE",
+"164 766 CURVE SMOOTH",
+"170 762 OFFCURVE",
+"172 755 OFFCURVE",
+"172 750 CURVE SMOOTH",
+"172 733 LINE",
+"172 733 OFFCURVE",
+"91 733 OFFCURVE",
+"45 714 CURVE SMOOTH",
+"-1 695 OFFCURVE",
+"-28 667 OFFCURVE",
+"-28 628 CURVE SMOOTH",
+"-28 578 OFFCURVE",
+"8 551 OFFCURVE",
+"47 543 CURVE SMOOTH",
+"86 535 OFFCURVE",
+"120 538 OFFCURVE",
+"141 551 CURVE SMOOTH",
+"162 564 OFFCURVE",
+"165 573 OFFCURVE",
+"173 581 CURVE SMOOTH",
+"173 581 OFFCURVE",
+"174 550 OFFCURVE",
+"176 541 CURVE",
+"285 538 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"165 624 OFFCURVE",
+"157 615 OFFCURVE",
+"140 609 CURVE SMOOTH",
+"123 603 OFFCURVE",
+"107 610 OFFCURVE",
+"102 616 CURVE SMOOTH",
+"97 622 OFFCURVE",
+"94 643 OFFCURVE",
+"107 658 CURVE SMOOTH",
+"122 675 OFFCURVE",
+"170 678 OFFCURVE",
+"170 678 CURVE",
+"168 642 LINE"
+);
+}
+);
+width = 400;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "CC6B688D-1503-45C7-857B-764D5532785F";
+name = "new Layer";
+width = 600;
+}
+);
+unicode = 0061;
+},
+{
+glyphname = i;
+lastChange = "2018-06-27 11:06:30 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 0}, {834.84, 568.44}}";
+imagePath = "../00_Recursos/Nike just slam it.jpg";
+locked = "1";
+transform = "{3.433, 0, 0, 3.433, -2501, -135}";
+};
+layerId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+paths = (
+{
+closed = 1;
+nodes = (
+"-13 649 LINE",
+"71 648 LINE",
+"64 433 LINE",
+"-19 434 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"-11 669 LINE",
+"-10 725 LINE",
+"73 724 LINE",
+"72 667 LINE"
+);
+}
+);
+width = 150;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "4600935A-B46E-4FA1-B0D6-4EE271FC1662";
+name = "new Layer";
+width = 600;
+},
+{
+backgroundImage = {
+crop = "{{0, 0}, {834.84, 568.44}}";
+imagePath = "../00_Recursos/Nike just slam it.jpg";
+locked = "1";
+transform = "{3.433, 0, 0, 3.433, -2501, -135}";
+};
+layerId = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+paths = (
+{
+closed = 1;
+nodes = (
+"6 632 LINE",
+"69 631 LINE",
+"64 468 LINE",
+"1 469 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"7 647 LINE",
+"8 690 LINE",
+"71 689 LINE",
+"70 646 LINE"
+);
+}
+);
+width = 150;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "CC6B688D-1503-45C7-857B-764D5532785F";
+name = "new Layer";
+width = 600;
+}
+);
+unicode = 0069;
+},
+{
+glyphname = l;
+lastChange = "2018-09-03 15:17:17 +0000";
+layers = (
+{
+layerId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+paths = (
+{
+closed = 1;
+nodes = (
+"349 1035 LINE",
+"311 -56 LINE",
+"1 -47 LINE",
+"37 1047 LINE"
+);
+}
+);
+width = 400;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "4600935A-B46E-4FA1-B0D6-4EE271FC1662";
+visible = 1;
+width = 600;
+},
+{
+backgroundImage = {
+crop = "{{0, 0}, {834.84, 568.44}}";
+imagePath = "../00_Recursos/Nike just slam it.jpg";
+locked = "1";
+transform = "{3.433, 0, 0, 3.433, -1771, -135}";
+};
+layerId = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+paths = (
+{
+closed = 1;
+nodes = (
+"280 896 LINE",
+"257 250 LINE",
+"74 255 LINE",
+"96 903 LINE"
+);
+}
+);
+width = 400;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "CC6B688D-1503-45C7-857B-764D5532785F";
+width = 600;
+}
+);
+unicode = 006C;
+},
+{
+glyphname = m;
+lastChange = "2018-06-27 11:06:00 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 0}, {834.84, 568.44}}";
+imagePath = "../00_Recursos/Nike just slam it.jpg";
+locked = "1";
+transform = "{3.433, 0, 0, 3.433, -2336, -135}";
+};
+layerId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+paths = (
+{
+closed = 1;
+nodes = (
+"-77 723 LINE",
+"3 721 LINE",
+"6 858 LINE",
+"6 858 OFFCURVE",
+"8 876 OFFCURVE",
+"26 876 CURVE SMOOTH",
+"42 876 OFFCURVE",
+"43 860 OFFCURVE",
+"43 856 CURVE SMOOTH",
+"40 720 LINE",
+"120 718 LINE",
+"124 850 LINE",
+"124 850 OFFCURVE",
+"126 870 OFFCURVE",
+"145 870 CURVE SMOOTH",
+"164 870 OFFCURVE",
+"161 852 OFFCURVE",
+"161 849 CURVE SMOOTH",
+"158 716 LINE",
+"238 715 LINE",
+"243 872 LINE",
+"243 899 OFFCURVE",
+"226 928 OFFCURVE",
+"181 928 CURVE SMOOTH",
+"140 928 OFFCURVE",
+"131 914 OFFCURVE",
+"117 901 CURVE SMOOTH",
+"117 901 LINE",
+"109 912 OFFCURVE",
+"92 933 OFFCURVE",
+"54 932 CURVE SMOOTH",
+"23 931 OFFCURVE",
+"9 912 OFFCURVE",
+"3 904 CURVE",
+"3 930 LINE",
+"-71 932 LINE"
+);
+}
+);
+width = 350;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "4600935A-B46E-4FA1-B0D6-4EE271FC1662";
+name = "new Layer";
+width = 600;
+},
+{
+backgroundImage = {
+crop = "{{0, 0}, {834.84, 568.44}}";
+imagePath = "../00_Recursos/Nike just slam it.jpg";
+locked = "1";
+transform = "{3.433, 0, 0, 3.433, -2336, -135}";
+};
+layerId = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+paths = (
+{
+closed = 1;
+nodes = (
+"2 733 LINE",
+"51 732 LINE",
+"53 816 LINE",
+"53 816 OFFCURVE",
+"54 827 OFFCURVE",
+"65 827 CURVE SMOOTH",
+"75 827 OFFCURVE",
+"76 817 OFFCURVE",
+"76 815 CURVE SMOOTH",
+"74 731 LINE",
+"123 730 LINE",
+"125 811 LINE",
+"125 811 OFFCURVE",
+"126 823 OFFCURVE",
+"138 823 CURVE SMOOTH",
+"150 823 OFFCURVE",
+"148 812 OFFCURVE",
+"148 810 CURVE SMOOTH",
+"146 729 LINE",
+"195 728 LINE",
+"198 824 LINE",
+"198 841 OFFCURVE",
+"187 859 OFFCURVE",
+"160 859 CURVE SMOOTH",
+"135 859 OFFCURVE",
+"129 850 OFFCURVE",
+"121 842 CURVE SMOOTH",
+"121 842 LINE",
+"116 849 OFFCURVE",
+"106 862 OFFCURVE",
+"82 861 CURVE SMOOTH",
+"63 860 OFFCURVE",
+"55 849 OFFCURVE",
+"51 844 CURVE",
+"51 860 LINE",
+"6 861 LINE"
+);
+}
+);
+width = 350;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "CC6B688D-1503-45C7-857B-764D5532785F";
+name = "new Layer";
+width = 600;
+}
+);
+unicode = 006D;
+},
+{
+glyphname = t;
+lastChange = "2018-06-27 11:05:17 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 0}, {834.84, 568.44}}";
+imagePath = "../00_Recursos/Nike just slam it.jpg";
+locked = "1";
+transform = "{3.433, 0, 0, 3.433, -2585, -135}";
+};
+layerId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+paths = (
+{
+closed = 1;
+nodes = (
+"33 593 LINE",
+"32 490 LINE SMOOTH",
+"32 463 OFFCURVE",
+"46 449 OFFCURVE",
+"64 439 CURVE SMOOTH",
+"83 428 OFFCURVE",
+"110 433 OFFCURVE",
+"110 433 CURVE",
+"149 437 LINE",
+"149 494 LINE",
+"125 493 LINE",
+"110 493 OFFCURVE",
+"112 506 OFFCURVE",
+"112 511 CURVE SMOOTH",
+"115 590 LINE",
+"154 589 LINE",
+"156 642 LINE",
+"116 644 LINE",
+"119 712 LINE",
+"47 711 LINE",
+"38 648 LINE",
+"5 648 LINE",
+"3 594 LINE"
+);
+}
+);
+width = 200;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "4600935A-B46E-4FA1-B0D6-4EE271FC1662";
+name = "new Layer";
+width = 600;
+},
+{
+backgroundImage = {
+crop = "{{0, 0}, {834.84, 568.44}}";
+imagePath = "../00_Recursos/Nike just slam it.jpg";
+locked = "1";
+transform = "{3.433, 0, 0, 3.433, -2585, -135}";
+};
+layerId = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+paths = (
+{
+closed = 1;
+nodes = (
+"24 587 LINE",
+"23 507 LINE SMOOTH",
+"23 486 OFFCURVE",
+"34 475 OFFCURVE",
+"49 467 CURVE SMOOTH",
+"64 459 OFFCURVE",
+"85 462 OFFCURVE",
+"85 462 CURVE",
+"115 465 LINE",
+"115 510 LINE",
+"96 509 LINE",
+"85 509 OFFCURVE",
+"86 519 OFFCURVE",
+"86 523 CURVE SMOOTH",
+"88 585 LINE",
+"119 584 LINE",
+"120 626 LINE",
+"89 627 LINE",
+"91 681 LINE",
+"35 680 LINE",
+"28 630 LINE",
+"2 630 LINE",
+"1 588 LINE"
+);
+}
+);
+width = 200;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "CC6B688D-1503-45C7-857B-764D5532785F";
+name = "new Layer";
+width = 600;
+}
+);
+unicode = 0074;
+},
+{
+glyphname = space;
+lastChange = "2018-04-18 09:57:29 +0000";
+layers = (
+{
+layerId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+width = 600;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "4FD31245-F0BE-4A66-8709-5C4AA292B019";
+width = 600;
+},
+{
+layerId = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+width = 600;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "CC6B688D-1503-45C7-857B-764D5532785F";
+width = 600;
+}
+);
+unicode = 0020;
+}
+);
+instances = (
+{
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+"A,A,A,A,A,A,A,A"
+);
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 300;
+interpolationWidth = 500;
+instanceInterpolations = {
+"AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96" = 1;
+};
+name = Low;
+},
+{
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+"A,A,A,A,A,A,A,A"
+);
+}
+);
+interpolationCustom = 800;
+interpolationWeight = 300;
+interpolationWidth = 500;
+instanceInterpolations = {
+"AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96" = 1;
+};
+name = High;
+}
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}

@@ -1,0 +1,396 @@
+{
+.appVersion = "1161";
+DisplayStrings = (
+u
+);
+copyright = "Copyright © 2018 by David Reglero. All rights reserved. Original artwork by Wolfgang Weingart.";
+customParameters = (
+{
+name = Axes;
+value = (
+{
+Name = "Transfiguración";
+Tag = trans;
+},
+{
+Name = "Posición Y";
+Tag = posy;
+}
+);
+}
+);
+date = "2018-03-06 01:04:39 +0000";
+designer = "David Reglero";
+familyName = "übel. salü. lümmel. glühwein.";
+fontMaster = (
+{
+ascender = 1000;
+capHeight = 0;
+custom = "Transfiguración cuadrado";
+customValue = 100;
+descender = 0;
+id = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+visible = 1;
+weightValue = 800;
+xHeight = 0;
+},
+{
+ascender = 1000;
+capHeight = 0;
+custom = "Transfiguración círculo";
+customValue = 800;
+descender = 0;
+id = "3443F240-5BDF-4DAF-8294-94446422B13B";
+visible = 1;
+xHeight = 0;
+},
+{
+ascender = 1000;
+capHeight = 0;
+custom = "Posición Baja";
+descender = 0;
+id = "48E45BAF-4C85-4A62-82A8-E7E0756AA32D";
+weightValue = 800;
+xHeight = 0;
+},
+{
+ascender = 1000;
+capHeight = 0;
+custom = "Posición Alta";
+descender = 0;
+id = "3508A2AA-CFC1-4E21-A727-29680A6DA6D7";
+weightValue = 800;
+widthValue = 800;
+xHeight = 0;
+}
+);
+glyphs = (
+{
+glyphname = u;
+lastChange = "2018-09-03 16:21:37 +0000";
+layers = (
+{
+layerId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+paths = (
+{
+closed = 1;
+nodes = (
+"62 147 LINE",
+"62 137 LINE",
+"62 131 OFFCURVE",
+"62 126 OFFCURVE",
+"70 118 CURVE SMOOTH",
+"73 115 OFFCURVE",
+"80 111 OFFCURVE",
+"87 111 CURVE SMOOTH",
+"121 111 LINE",
+"121 147 LINE",
+"235 147 LINE",
+"235 0 LINE",
+"87 0 LINE",
+"79 0 OFFCURVE",
+"55 -3 OFFCURVE",
+"27 19 CURVE SMOOTH",
+"12 31 OFFCURVE",
+"6 45 OFFCURVE",
+"2 60 CURVE SMOOTH",
+"0 68 OFFCURVE",
+"0 86 OFFCURVE",
+"0 96 CURVE SMOOTH",
+"0 147 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"215 153 OFFCURVE",
+"235 173 OFFCURVE",
+"235 198 CURVE SMOOTH",
+"235 223 OFFCURVE",
+"215 243 OFFCURVE",
+"190 243 CURVE SMOOTH",
+"165 243 OFFCURVE",
+"145 223 OFFCURVE",
+"145 198 CURVE SMOOTH",
+"145 173 OFFCURVE",
+"165 153 OFFCURVE",
+"190 153 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"70 153 OFFCURVE",
+"90 173 OFFCURVE",
+"90 198 CURVE SMOOTH",
+"90 223 OFFCURVE",
+"70 243 OFFCURVE",
+"45 243 CURVE SMOOTH",
+"20 243 OFFCURVE",
+"0 223 OFFCURVE",
+"0 198 CURVE SMOOTH",
+"0 173 OFFCURVE",
+"20 153 OFFCURVE",
+"45 153 CURVE SMOOTH"
+);
+}
+);
+width = 300;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "4600935A-B46E-4FA1-B0D6-4EE271FC1662";
+name = "new Layer";
+width = 600;
+},
+{
+layerId = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+paths = (
+{
+closed = 1;
+nodes = (
+"62 147 LINE",
+"62 137 LINE",
+"62 131 OFFCURVE",
+"62 126 OFFCURVE",
+"70 118 CURVE SMOOTH",
+"73 115 OFFCURVE",
+"80 111 OFFCURVE",
+"87 111 CURVE SMOOTH",
+"121 111 LINE",
+"121 147 LINE",
+"235 147 LINE",
+"235 0 LINE",
+"87 0 LINE",
+"79 0 OFFCURVE",
+"55 -3 OFFCURVE",
+"27 19 CURVE SMOOTH",
+"12 31 OFFCURVE",
+"6 45 OFFCURVE",
+"2 60 CURVE SMOOTH",
+"0 68 OFFCURVE",
+"0 86 OFFCURVE",
+"0 96 CURVE SMOOTH",
+"0 147 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"115 155 OFFCURVE",
+"235 155 OFFCURVE",
+"235 155 CURVE SMOOTH",
+"235 155 OFFCURVE",
+"235 265 OFFCURVE",
+"235 265 CURVE SMOOTH",
+"235 265 OFFCURVE",
+"115 265 OFFCURVE",
+"115 265 CURVE SMOOTH",
+"115 265 OFFCURVE",
+"115 155 OFFCURVE",
+"115 155 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"-41 155 OFFCURVE",
+"79 155 OFFCURVE",
+"79 155 CURVE SMOOTH",
+"79 155 OFFCURVE",
+"79 265 OFFCURVE",
+"79 265 CURVE SMOOTH",
+"79 265 OFFCURVE",
+"-41 265 OFFCURVE",
+"-41 265 CURVE SMOOTH",
+"-41 265 OFFCURVE",
+"-41 155 OFFCURVE",
+"-41 155 CURVE SMOOTH"
+);
+}
+);
+width = 300;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "CC6B688D-1503-45C7-857B-764D5532785F";
+name = "new Layer";
+width = 600;
+},
+{
+layerId = "48E45BAF-4C85-4A62-82A8-E7E0756AA32D";
+paths = (
+{
+closed = 1;
+nodes = (
+"62 147 LINE",
+"62 137 LINE",
+"62 131 OFFCURVE",
+"62 126 OFFCURVE",
+"70 118 CURVE SMOOTH",
+"73 115 OFFCURVE",
+"80 111 OFFCURVE",
+"87 111 CURVE SMOOTH",
+"121 111 LINE",
+"121 147 LINE",
+"235 147 LINE",
+"235 0 LINE",
+"87 0 LINE",
+"79 0 OFFCURVE",
+"55 -3 OFFCURVE",
+"27 19 CURVE SMOOTH",
+"12 31 OFFCURVE",
+"6 45 OFFCURVE",
+"2 60 CURVE SMOOTH",
+"0 68 OFFCURVE",
+"0 86 OFFCURVE",
+"0 96 CURVE SMOOTH",
+"0 147 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"115 155 OFFCURVE",
+"235 155 OFFCURVE",
+"235 155 CURVE SMOOTH",
+"235 155 OFFCURVE",
+"235 265 OFFCURVE",
+"235 265 CURVE SMOOTH",
+"235 265 OFFCURVE",
+"115 265 OFFCURVE",
+"115 265 CURVE SMOOTH",
+"115 265 OFFCURVE",
+"115 155 OFFCURVE",
+"115 155 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"-41 155 OFFCURVE",
+"79 155 OFFCURVE",
+"79 155 CURVE SMOOTH",
+"79 155 OFFCURVE",
+"79 265 OFFCURVE",
+"79 265 CURVE SMOOTH",
+"79 265 OFFCURVE",
+"-41 265 OFFCURVE",
+"-41 265 CURVE SMOOTH",
+"-41 265 OFFCURVE",
+"-41 155 OFFCURVE",
+"-41 155 CURVE SMOOTH"
+);
+}
+);
+width = 300;
+},
+{
+layerId = "3508A2AA-CFC1-4E21-A727-29680A6DA6D7";
+paths = (
+{
+closed = 1;
+nodes = (
+"62 147 LINE",
+"62 137 LINE",
+"62 131 OFFCURVE",
+"62 126 OFFCURVE",
+"70 118 CURVE SMOOTH",
+"73 115 OFFCURVE",
+"80 111 OFFCURVE",
+"87 111 CURVE SMOOTH",
+"121 111 LINE",
+"121 147 LINE",
+"235 147 LINE",
+"235 0 LINE",
+"87 0 LINE",
+"79 0 OFFCURVE",
+"55 -3 OFFCURVE",
+"27 19 CURVE SMOOTH",
+"12 31 OFFCURVE",
+"6 45 OFFCURVE",
+"2 60 CURVE SMOOTH",
+"0 68 OFFCURVE",
+"0 86 OFFCURVE",
+"0 96 CURVE SMOOTH",
+"0 147 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"115 247 OFFCURVE",
+"235 247 OFFCURVE",
+"235 247 CURVE SMOOTH",
+"235 247 OFFCURVE",
+"235 357 OFFCURVE",
+"235 357 CURVE SMOOTH",
+"235 357 OFFCURVE",
+"115 357 OFFCURVE",
+"115 357 CURVE SMOOTH",
+"115 357 OFFCURVE",
+"115 247 OFFCURVE",
+"115 247 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"-41 247 OFFCURVE",
+"79 247 OFFCURVE",
+"79 247 CURVE SMOOTH",
+"79 247 OFFCURVE",
+"79 357 OFFCURVE",
+"79 357 CURVE SMOOTH",
+"79 357 OFFCURVE",
+"-41 357 OFFCURVE",
+"-41 357 CURVE SMOOTH",
+"-41 357 OFFCURVE",
+"-41 247 OFFCURVE",
+"-41 247 CURVE SMOOTH"
+);
+}
+);
+width = 300;
+}
+);
+unicode = 0075;
+},
+{
+glyphname = space;
+lastChange = "2018-06-28 08:26:34 +0000";
+layers = (
+{
+layerId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+width = 600;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "4FD31245-F0BE-4A66-8709-5C4AA292B019";
+width = 600;
+},
+{
+layerId = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+width = 600;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "CC6B688D-1503-45C7-857B-764D5532785F";
+width = 600;
+},
+{
+layerId = "48E45BAF-4C85-4A62-82A8-E7E0756AA32D";
+width = 600;
+},
+{
+layerId = "3508A2AA-CFC1-4E21-A727-29680A6DA6D7";
+width = 600;
+}
+);
+unicode = 0020;
+}
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}
