@@ -1,0 +1,1223 @@
+{
+.appVersion = "1161";
+DisplayStrings = (
+a
+);
+copyright = "Copyright © 2018 by David Reglero. All rights reserved. Original artwork by Wim Crouwell.";
+customParameters = (
+{
+name = Axes;
+value = (
+{
+Name = Anchura;
+Tag = anch;
+}
+);
+}
+);
+date = "2018-03-06 01:04:39 +0000";
+designer = "David Reglero";
+familyName = "Wim Crouwell";
+fontMaster = (
+{
+ascender = 880;
+capHeight = 0;
+custom = Estrecho;
+customValue = 100;
+descender = 0;
+id = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+visible = 1;
+weightValue = 300;
+widthValue = 300;
+xHeight = 640;
+},
+{
+ascender = 880;
+capHeight = 0;
+custom = Ancho;
+customValue = 800;
+descender = 0;
+id = "3443F240-5BDF-4DAF-8294-94446422B13B";
+visible = 1;
+weightValue = 800;
+widthValue = 300;
+xHeight = 640;
+}
+);
+glyphs = (
+{
+glyphname = a;
+lastChange = "2018-09-10 22:09:33 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 0}, {740, 1110}}";
+imagePath = "/Users/davidreca/Library/Mobile Documents/com~apple~CloudDocs/01_proyectos/01_Académicos/01_TFE/G-David Reglero Cadenas-TFE.2017-18/01_Documentación/03_Exploratorio/05_Wim Crouwell/00_Recursos/2514294468_fe63d65253_o.jpg";
+locked = "1";
+transform = "{2.772, 0, 0, 2.772, -1801, -980}";
+};
+layerId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+paths = (
+{
+closed = 1;
+nodes = (
+"362 0 LINE",
+"362 713 LINE",
+"349 713 LINE",
+"349 584 OFFCURVE",
+"94 262 OFFCURVE",
+"19 262 CURVE",
+"19 249 LINE",
+"339 249 LINE SMOOTH",
+"345 249 OFFCURVE",
+"349 244 OFFCURVE",
+"349 239 CURVE SMOOTH",
+"349 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"66 266 LINE",
+"102 292 OFFCURVE",
+"272 450 OFFCURVE",
+"347 646 CURVE",
+"349 646 LINE",
+"349 272 LINE SMOOTH",
+"349 267 OFFCURVE",
+"345 262 OFFCURVE",
+"339 262 CURVE SMOOTH",
+"66 262 LINE"
+);
+}
+);
+width = 375;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "4600935A-B46E-4FA1-B0D6-4EE271FC1662";
+name = "new Layer";
+width = 600;
+},
+{
+layerId = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+paths = (
+{
+closed = 1;
+nodes = (
+"619 0 LINE",
+"619 713 LINE",
+"309 713 LINE",
+"309 513 OFFCURVE",
+"214 262 OFFCURVE",
+"0 262 CURVE",
+"0 249 LINE",
+"454 249 LINE SMOOTH",
+"459 249 OFFCURVE",
+"464 244 OFFCURVE",
+"464 239 CURVE SMOOTH",
+"464 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"134 269 LINE",
+"301 319 OFFCURVE",
+"428 460 OFFCURVE",
+"457 635 CURVE",
+"464 635 LINE",
+"464 272 LINE SMOOTH",
+"464 267 OFFCURVE",
+"459 262 OFFCURVE",
+"454 262 CURVE SMOOTH",
+"134 262 LINE"
+);
+}
+);
+width = 632;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "CC6B688D-1503-45C7-857B-764D5532785F";
+name = "new Layer";
+width = 600;
+}
+);
+unicode = 0061;
+changeCount = 376;
+},
+{
+glyphname = h;
+lastChange = "2018-07-24 14:57:31 +0000";
+layers = (
+{
+layerId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+paths = (
+{
+closed = 1;
+nodes = (
+"324 43 LINE",
+"324 880 LINE",
+"0 880 LINE",
+"0 43 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"659 43 LINE",
+"659 585 LINE",
+"335 585 LINE",
+"335 43 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"605 551 LINE",
+"605 640 LINE",
+"324 640 LINE",
+"324 551 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"635 532 OFFCURVE",
+"659 556 OFFCURVE",
+"659 586 CURVE SMOOTH",
+"659 616 OFFCURVE",
+"635 640 OFFCURVE",
+"605 640 CURVE SMOOTH",
+"575 640 OFFCURVE",
+"551 616 OFFCURVE",
+"551 586 CURVE SMOOTH",
+"551 556 OFFCURVE",
+"575 532 OFFCURVE",
+"605 532 CURVE SMOOTH"
+);
+}
+);
+width = 671;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "4600935A-B46E-4FA1-B0D6-4EE271FC1662";
+visible = 1;
+width = 600;
+},
+{
+backgroundImage = {
+crop = "{{0, 0}, {740, 1110}}";
+imagePath = "/Users/davidreca/Library/Mobile Documents/com~apple~CloudDocs/01_proyectos/01_Académicos/01_TFE/G-David Reglero Cadenas-TFE.2017-18/01_Documentación/03_Exploratorio/05_Wim Crouwell/00_Recursos/2514294468_fe63d65253_o.jpg";
+transform = "{2.77217, 0, 0, 2.77217, -21, -980}";
+};
+layerId = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+paths = (
+{
+closed = 1;
+nodes = (
+"108 43 LINE",
+"108 880 LINE",
+"0 880 LINE",
+"0 43 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"227 43 LINE",
+"227 585 LINE",
+"119 585 LINE",
+"119 43 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"173 551 LINE",
+"173 640 LINE",
+"86 640 LINE",
+"86 551 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"203 532 OFFCURVE",
+"227 556 OFFCURVE",
+"227 586 CURVE SMOOTH",
+"227 616 OFFCURVE",
+"203 640 OFFCURVE",
+"173 640 CURVE SMOOTH",
+"143 640 OFFCURVE",
+"119 616 OFFCURVE",
+"119 586 CURVE SMOOTH",
+"119 556 OFFCURVE",
+"143 532 OFFCURVE",
+"173 532 CURVE SMOOTH"
+);
+}
+);
+width = 239;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "CC6B688D-1503-45C7-857B-764D5532785F";
+width = 600;
+}
+);
+unicode = 0068;
+},
+{
+glyphname = i;
+lastChange = "2018-07-24 15:08:02 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 0}, {740, 1110}}";
+imagePath = "/Users/davidreca/Library/Mobile Documents/com~apple~CloudDocs/01_proyectos/01_Académicos/01_TFE/G-David Reglero Cadenas-TFE.2017-18/01_Documentación/03_Exploratorio/05_Wim Crouwell/00_Recursos/2514294468_fe63d65253_o.jpg";
+locked = "1";
+transform = "{2.772, 0, 0, 2.772, -259, -980}";
+};
+layerId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+paths = (
+{
+closed = 1;
+nodes = (
+"324 44 LINE",
+"324 640 LINE",
+"0 640 LINE",
+"0 44 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"324 651 LINE",
+"324 880 LINE",
+"0 880 LINE",
+"0 651 LINE"
+);
+}
+);
+width = 336;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "4600935A-B46E-4FA1-B0D6-4EE271FC1662";
+name = "new Layer";
+width = 600;
+},
+{
+layerId = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+paths = (
+{
+closed = 1;
+nodes = (
+"108 44 LINE",
+"108 640 LINE",
+"0 640 LINE",
+"0 44 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"108 651 LINE",
+"108 880 LINE",
+"0 880 LINE",
+"0 651 LINE"
+);
+}
+);
+width = 120;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "CC6B688D-1503-45C7-857B-764D5532785F";
+name = "new Layer";
+width = 600;
+}
+);
+unicode = 0069;
+},
+{
+glyphname = m;
+lastChange = "2018-07-24 15:45:24 +0000";
+layers = (
+{
+layerId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+paths = (
+{
+closed = 1;
+nodes = (
+"659 44 LINE",
+"659 640 LINE",
+"335 640 LINE",
+"335 44 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"324 44 LINE",
+"324 640 LINE",
+"0 640 LINE",
+"0 44 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"940 551 LINE",
+"940 640 LINE",
+"0 640 LINE",
+"0 551 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"994 43 LINE",
+"994 585 LINE",
+"670 585 LINE",
+"670 43 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"970 532 OFFCURVE",
+"994 556 OFFCURVE",
+"994 586 CURVE SMOOTH",
+"994 616 OFFCURVE",
+"970 640 OFFCURVE",
+"940 640 CURVE SMOOTH",
+"910 640 OFFCURVE",
+"886 616 OFFCURVE",
+"886 586 CURVE SMOOTH",
+"886 556 OFFCURVE",
+"910 532 OFFCURVE",
+"940 532 CURVE SMOOTH"
+);
+}
+);
+width = 1006;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "4600935A-B46E-4FA1-B0D6-4EE271FC1662";
+name = "new Layer";
+width = 600;
+},
+{
+backgroundImage = {
+crop = "{{0, 0}, {740, 1110}}";
+imagePath = "/Users/davidreca/Library/Mobile Documents/com~apple~CloudDocs/01_proyectos/01_Académicos/01_TFE/G-David Reglero Cadenas-TFE.2017-18/01_Documentación/03_Exploratorio/05_Wim Crouwell/00_Recursos/2514294468_fe63d65253_o.jpg";
+locked = "1";
+transform = "{2.772, 0, 0, 2.772, -1443, -980}";
+};
+layerId = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+paths = (
+{
+closed = 1;
+nodes = (
+"228 44 LINE",
+"228 640 LINE",
+"120 640 LINE",
+"120 44 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"108 44 LINE",
+"108 640 LINE",
+"0 640 LINE",
+"0 44 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"293 551 LINE",
+"293 640 LINE",
+"0 640 LINE",
+"0 551 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"347 43 LINE",
+"347 585 LINE",
+"239 585 LINE",
+"239 43 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"323 532 OFFCURVE",
+"347 556 OFFCURVE",
+"347 586 CURVE SMOOTH",
+"347 616 OFFCURVE",
+"323 640 OFFCURVE",
+"293 640 CURVE SMOOTH",
+"263 640 OFFCURVE",
+"239 616 OFFCURVE",
+"239 586 CURVE SMOOTH",
+"239 556 OFFCURVE",
+"263 532 OFFCURVE",
+"293 532 CURVE SMOOTH"
+);
+}
+);
+width = 359;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "CC6B688D-1503-45C7-857B-764D5532785F";
+name = "new Layer";
+width = 600;
+}
+);
+unicode = 006D;
+},
+{
+glyphname = o;
+lastChange = "2018-07-24 15:12:04 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 0}, {740, 1110}}";
+imagePath = "/Users/davidreca/Library/Mobile Documents/com~apple~CloudDocs/01_proyectos/01_Académicos/01_TFE/G-David Reglero Cadenas-TFE.2017-18/01_Documentación/03_Exploratorio/05_Wim Crouwell/00_Recursos/2514294468_fe63d65253_o.jpg";
+locked = "1";
+transform = "{2.772, 0, 0, 2.772, -850, -980}";
+};
+layerId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+paths = (
+{
+closed = 1;
+nodes = (
+"324 94 LINE",
+"324 586 LINE",
+"0 586 LINE",
+"0 94 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"84 41 OFFCURVE",
+"108 65 OFFCURVE",
+"108 95 CURVE SMOOTH",
+"108 125 OFFCURVE",
+"84 149 OFFCURVE",
+"54 149 CURVE SMOOTH",
+"24 149 OFFCURVE",
+"0 125 OFFCURVE",
+"0 95 CURVE SMOOTH",
+"0 65 OFFCURVE",
+"24 41 OFFCURVE",
+"54 41 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"605 41 LINE",
+"605 130 LINE",
+"53 130 LINE",
+"53 41 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"84 532 OFFCURVE",
+"108 556 OFFCURVE",
+"108 586 CURVE SMOOTH",
+"108 616 OFFCURVE",
+"84 640 OFFCURVE",
+"54 640 CURVE SMOOTH",
+"24 640 OFFCURVE",
+"0 616 OFFCURVE",
+"0 586 CURVE SMOOTH",
+"0 556 OFFCURVE",
+"24 532 OFFCURVE",
+"54 532 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"635 41 OFFCURVE",
+"659 65 OFFCURVE",
+"659 95 CURVE SMOOTH",
+"659 125 OFFCURVE",
+"635 149 OFFCURVE",
+"605 149 CURVE SMOOTH",
+"575 149 OFFCURVE",
+"551 125 OFFCURVE",
+"551 95 CURVE SMOOTH",
+"551 65 OFFCURVE",
+"575 41 OFFCURVE",
+"605 41 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"659 95 LINE",
+"659 585 LINE",
+"335 585 LINE",
+"335 95 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"605 551 LINE",
+"605 640 LINE",
+"54 640 LINE",
+"54 551 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"635 532 OFFCURVE",
+"659 556 OFFCURVE",
+"659 586 CURVE SMOOTH",
+"659 616 OFFCURVE",
+"635 640 OFFCURVE",
+"605 640 CURVE SMOOTH",
+"575 640 OFFCURVE",
+"551 616 OFFCURVE",
+"551 586 CURVE SMOOTH",
+"551 556 OFFCURVE",
+"575 532 OFFCURVE",
+"605 532 CURVE SMOOTH"
+);
+}
+);
+width = 671;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "4600935A-B46E-4FA1-B0D6-4EE271FC1662";
+name = "new Layer";
+width = 600;
+},
+{
+layerId = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+paths = (
+{
+closed = 1;
+nodes = (
+"108 95 LINE",
+"108 586 LINE",
+"0 586 LINE",
+"0 95 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"84 41 OFFCURVE",
+"108 65 OFFCURVE",
+"108 95 CURVE SMOOTH",
+"108 125 OFFCURVE",
+"84 149 OFFCURVE",
+"54 149 CURVE SMOOTH",
+"24 149 OFFCURVE",
+"0 125 OFFCURVE",
+"0 95 CURVE SMOOTH",
+"0 65 OFFCURVE",
+"24 41 OFFCURVE",
+"54 41 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"173 41 LINE",
+"173 130 LINE",
+"54 130 LINE",
+"54 41 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"84 532 OFFCURVE",
+"108 556 OFFCURVE",
+"108 586 CURVE SMOOTH",
+"108 616 OFFCURVE",
+"84 640 OFFCURVE",
+"54 640 CURVE SMOOTH",
+"24 640 OFFCURVE",
+"0 616 OFFCURVE",
+"0 586 CURVE SMOOTH",
+"0 556 OFFCURVE",
+"24 532 OFFCURVE",
+"54 532 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"203 41 OFFCURVE",
+"227 65 OFFCURVE",
+"227 95 CURVE SMOOTH",
+"227 125 OFFCURVE",
+"203 149 OFFCURVE",
+"173 149 CURVE SMOOTH",
+"143 149 OFFCURVE",
+"119 125 OFFCURVE",
+"119 95 CURVE SMOOTH",
+"119 65 OFFCURVE",
+"143 41 OFFCURVE",
+"173 41 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"227 95 LINE",
+"227 585 LINE",
+"119 585 LINE",
+"119 95 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"173 551 LINE",
+"173 640 LINE",
+"54 640 LINE",
+"54 551 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"203 532 OFFCURVE",
+"227 556 OFFCURVE",
+"227 586 CURVE SMOOTH",
+"227 616 OFFCURVE",
+"203 640 OFFCURVE",
+"173 640 CURVE SMOOTH",
+"143 640 OFFCURVE",
+"119 616 OFFCURVE",
+"119 586 CURVE SMOOTH",
+"119 556 OFFCURVE",
+"143 532 OFFCURVE",
+"173 532 CURVE SMOOTH"
+);
+}
+);
+width = 239;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "CC6B688D-1503-45C7-857B-764D5532785F";
+name = "new Layer";
+width = 600;
+}
+);
+unicode = 006F;
+},
+{
+glyphname = r;
+lastChange = "2018-07-24 14:54:30 +0000";
+layers = (
+{
+layerId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+paths = (
+{
+closed = 1;
+nodes = (
+"324 43 LINE",
+"324 640 LINE",
+"0 640 LINE",
+"0 43 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"659 289 LINE",
+"659 585 LINE",
+"335 585 LINE",
+"335 289 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"605 551 LINE",
+"605 640 LINE",
+"324 640 LINE",
+"324 551 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"635 532 OFFCURVE",
+"659 556 OFFCURVE",
+"659 586 CURVE SMOOTH",
+"659 616 OFFCURVE",
+"635 640 OFFCURVE",
+"605 640 CURVE SMOOTH",
+"575 640 OFFCURVE",
+"551 616 OFFCURVE",
+"551 586 CURVE SMOOTH",
+"551 556 OFFCURVE",
+"575 532 OFFCURVE",
+"605 532 CURVE SMOOTH"
+);
+}
+);
+width = 671;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "4600935A-B46E-4FA1-B0D6-4EE271FC1662";
+name = "new Layer";
+width = 600;
+},
+{
+backgroundImage = {
+crop = "{{0, 0}, {740, 1110}}";
+imagePath = "/Users/davidreca/Library/Mobile Documents/com~apple~CloudDocs/01_proyectos/01_Académicos/01_TFE/G-David Reglero Cadenas-TFE.2017-18/01_Documentación/03_Exploratorio/05_Wim Crouwell/00_Recursos/2514294468_fe63d65253_o.jpg";
+locked = "1";
+transform = "{2.772, 0, 0, 2.772, -373, -980}";
+};
+layerId = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+paths = (
+{
+closed = 1;
+nodes = (
+"109 44 LINE",
+"109 640 LINE",
+"1 640 LINE",
+"1 44 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"228 281 LINE",
+"228 585 LINE",
+"120 585 LINE",
+"120 281 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"173 551 LINE",
+"173 640 LINE",
+"54 640 LINE",
+"54 551 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"204 532 OFFCURVE",
+"228 556 OFFCURVE",
+"228 586 CURVE SMOOTH",
+"228 616 OFFCURVE",
+"204 640 OFFCURVE",
+"174 640 CURVE SMOOTH",
+"144 640 OFFCURVE",
+"120 616 OFFCURVE",
+"120 586 CURVE SMOOTH",
+"120 556 OFFCURVE",
+"144 532 OFFCURVE",
+"174 532 CURVE SMOOTH"
+);
+}
+);
+width = 240;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "CC6B688D-1503-45C7-857B-764D5532785F";
+name = "new Layer";
+width = 600;
+}
+);
+unicode = 0072;
+},
+{
+glyphname = s;
+lastChange = "2018-07-24 15:13:14 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 0}, {740, 1110}}";
+imagePath = "/Users/davidreca/Library/Mobile Documents/com~apple~CloudDocs/01_proyectos/01_Académicos/01_TFE/G-David Reglero Cadenas-TFE.2017-18/01_Documentación/03_Exploratorio/05_Wim Crouwell/00_Recursos/2514294468_fe63d65253_o.jpg";
+locked = "1";
+transform = "{2.772, 0, 0, 2.772, -850, -980}";
+};
+layerId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+paths = (
+{
+closed = 1;
+nodes = (
+"324 289 LINE",
+"324 586 LINE",
+"0 586 LINE",
+"0 289 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"84 41 OFFCURVE",
+"108 65 OFFCURVE",
+"108 95 CURVE SMOOTH",
+"108 125 OFFCURVE",
+"84 149 OFFCURVE",
+"54 149 CURVE SMOOTH",
+"24 149 OFFCURVE",
+"0 125 OFFCURVE",
+"0 95 CURVE SMOOTH",
+"0 65 OFFCURVE",
+"24 41 OFFCURVE",
+"54 41 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"324 95 LINE",
+"324 278 LINE",
+"0 278 LINE",
+"0 95 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"605 41 LINE",
+"605 130 LINE",
+"53 130 LINE",
+"53 41 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"84 532 OFFCURVE",
+"108 556 OFFCURVE",
+"108 586 CURVE SMOOTH",
+"108 616 OFFCURVE",
+"84 640 OFFCURVE",
+"54 640 CURVE SMOOTH",
+"24 640 OFFCURVE",
+"0 616 OFFCURVE",
+"0 586 CURVE SMOOTH",
+"0 556 OFFCURVE",
+"24 532 OFFCURVE",
+"54 532 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"659 95 LINE",
+"659 289 LINE",
+"335 289 LINE",
+"335 95 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"635 41 OFFCURVE",
+"659 65 OFFCURVE",
+"659 95 CURVE SMOOTH",
+"659 125 OFFCURVE",
+"635 149 OFFCURVE",
+"605 149 CURVE SMOOTH",
+"575 149 OFFCURVE",
+"551 125 OFFCURVE",
+"551 95 CURVE SMOOTH",
+"551 65 OFFCURVE",
+"575 41 OFFCURVE",
+"605 41 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"659 289 LINE",
+"659 392 LINE",
+"216 392 LINE",
+"216 289 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"605 551 LINE",
+"605 640 LINE",
+"54 640 LINE",
+"54 551 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"659 403 LINE",
+"659 585 LINE",
+"335 585 LINE",
+"335 403 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"635 532 OFFCURVE",
+"659 556 OFFCURVE",
+"659 586 CURVE SMOOTH",
+"659 616 OFFCURVE",
+"635 640 OFFCURVE",
+"605 640 CURVE SMOOTH",
+"575 640 OFFCURVE",
+"551 616 OFFCURVE",
+"551 586 CURVE SMOOTH",
+"551 556 OFFCURVE",
+"575 532 OFFCURVE",
+"605 532 CURVE SMOOTH"
+);
+}
+);
+width = 671;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "4600935A-B46E-4FA1-B0D6-4EE271FC1662";
+name = "new Layer";
+width = 600;
+},
+{
+layerId = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+paths = (
+{
+closed = 1;
+nodes = (
+"108 289 LINE",
+"108 586 LINE",
+"0 586 LINE",
+"0 289 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"84 41 OFFCURVE",
+"108 65 OFFCURVE",
+"108 95 CURVE SMOOTH",
+"108 125 OFFCURVE",
+"84 149 OFFCURVE",
+"54 149 CURVE SMOOTH",
+"24 149 OFFCURVE",
+"0 125 OFFCURVE",
+"0 95 CURVE SMOOTH",
+"0 65 OFFCURVE",
+"24 41 OFFCURVE",
+"54 41 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"108 95 LINE",
+"108 278 LINE",
+"0 278 LINE",
+"0 95 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"173 41 LINE",
+"173 130 LINE",
+"54 130 LINE",
+"54 41 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"84 532 OFFCURVE",
+"108 556 OFFCURVE",
+"108 586 CURVE SMOOTH",
+"108 616 OFFCURVE",
+"84 640 OFFCURVE",
+"54 640 CURVE SMOOTH",
+"24 640 OFFCURVE",
+"0 616 OFFCURVE",
+"0 586 CURVE SMOOTH",
+"0 556 OFFCURVE",
+"24 532 OFFCURVE",
+"54 532 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"227 95 LINE",
+"227 289 LINE",
+"119 289 LINE",
+"119 95 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"203 41 OFFCURVE",
+"227 65 OFFCURVE",
+"227 95 CURVE SMOOTH",
+"227 125 OFFCURVE",
+"203 149 OFFCURVE",
+"173 149 CURVE SMOOTH",
+"143 149 OFFCURVE",
+"119 125 OFFCURVE",
+"119 95 CURVE SMOOTH",
+"119 65 OFFCURVE",
+"143 41 OFFCURVE",
+"173 41 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"227 289 LINE",
+"227 392 LINE",
+"0 392 LINE",
+"0 289 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"173 551 LINE",
+"173 640 LINE",
+"54 640 LINE",
+"54 551 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"227 403 LINE",
+"227 585 LINE",
+"119 585 LINE",
+"119 403 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"203 532 OFFCURVE",
+"227 556 OFFCURVE",
+"227 586 CURVE SMOOTH",
+"227 616 OFFCURVE",
+"203 640 OFFCURVE",
+"173 640 CURVE SMOOTH",
+"143 640 OFFCURVE",
+"119 616 OFFCURVE",
+"119 586 CURVE SMOOTH",
+"119 556 OFFCURVE",
+"143 532 OFFCURVE",
+"173 532 CURVE SMOOTH"
+);
+}
+);
+width = 239;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "CC6B688D-1503-45C7-857B-764D5532785F";
+name = "new Layer";
+width = 600;
+}
+);
+unicode = 0073;
+},
+{
+glyphname = space;
+lastChange = "2018-04-18 09:57:29 +0000";
+layers = (
+{
+layerId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+width = 600;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "4FD31245-F0BE-4A66-8709-5C4AA292B019";
+width = 600;
+},
+{
+layerId = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+width = 600;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "CC6B688D-1503-45C7-857B-764D5532785F";
+width = 600;
+}
+);
+unicode = 0020;
+}
+);
+instances = (
+{
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+"A,A,A,A,A,A,A,A"
+);
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 300;
+interpolationWidth = 500;
+instanceInterpolations = {
+"AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96" = 1;
+};
+name = Estrecho;
+},
+{
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+"A,A,A,A,A,A,A,A"
+);
+}
+);
+interpolationCustom = 800;
+interpolationWeight = 800;
+interpolationWidth = 500;
+instanceInterpolations = {
+"3443F240-5BDF-4DAF-8294-94446422B13B" = 1;
+};
+name = Ancho;
+}
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}

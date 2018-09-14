@@ -1,0 +1,421 @@
+{
+.appVersion = "1161";
+copyright = "Copyright © 2018 by David Reglero. All rights reserved. Original artwork by Theo H. Ballmer.";
+customParameters = (
+{
+name = Axes;
+value = (
+{
+Name = Altura;
+Tag = altu;
+}
+);
+}
+);
+date = "2018-04-02 00:04:39 +0000";
+designer = "David Reglero";
+familyName = "Theo H. Ballmer";
+fontMaster = (
+{
+ascender = 679;
+capHeight = 0;
+custom = Bajo;
+customValue = 100;
+descender = 0;
+id = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+visible = 1;
+xHeight = 0;
+},
+{
+ascender = 1360;
+capHeight = 0;
+custom = Alto;
+customValue = 800;
+descender = 0;
+id = "3443F240-5BDF-4DAF-8294-94446422B13B";
+visible = 1;
+weightValue = 800;
+xHeight = 0;
+}
+);
+glyphs = (
+{
+glyphname = U;
+lastChange = "2018-09-03 12:00:15 +0000";
+layers = (
+{
+layerId = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+paths = (
+{
+closed = 1;
+nodes = (
+"8 478 LINE",
+"203 478 LINE",
+"203 674 LINE",
+"8 674 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"211 478 LINE",
+"406 478 LINE",
+"406 674 LINE",
+"211 674 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"8 43 OFFCURVE",
+"51 0 OFFCURVE",
+"103 0 CURVE SMOOTH",
+"406 0 LINE",
+"406 471 LINE",
+"211 471 LINE",
+"211 198 LINE",
+"203 198 LINE",
+"203 471 LINE",
+"8 471 LINE",
+"8 95 LINE SMOOTH"
+);
+}
+);
+width = 411;
+},
+{
+layerId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+paths = (
+{
+closed = 1;
+nodes = (
+"8 1159 LINE",
+"203 1159 LINE",
+"203 1355 LINE",
+"8 1355 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"211 1159 LINE",
+"406 1159 LINE",
+"406 1355 LINE",
+"211 1355 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"8 43 OFFCURVE",
+"51 0 OFFCURVE",
+"103 0 CURVE SMOOTH",
+"406 0 LINE",
+"406 1152 LINE",
+"211 1152 LINE",
+"211 198 LINE",
+"203 198 LINE",
+"203 1152 LINE",
+"8 1152 LINE",
+"8 95 LINE SMOOTH"
+);
+}
+);
+width = 411;
+}
+);
+unicode = 0055;
+},
+{
+glyphname = b;
+lastChange = "2018-09-03 11:44:19 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 0}, {524, 740}}";
+imagePath = "/Users/davidreca/Library/Mobile Documents/com~apple~CloudDocs/01_proyectos/01_académicos/01_tfe/03_Desarrollo/01_Digital/02_Práctica/04_Büro/00_Recursos/Captura de pantalla 2018-06-26 a las 15.57.34.png";
+locked = "1";
+transform = "{2.768, 0, 0, 2.768, 0, -686}";
+};
+layerId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+paths = (
+{
+closed = 1;
+nodes = (
+"310 0 LINE SMOOTH",
+"362 0 OFFCURVE",
+"405 43 OFFCURVE",
+"405 95 CURVE SMOOTH",
+"405 1057 LINE SMOOTH",
+"405 1109 OFFCURVE",
+"362 1152 OFFCURVE",
+"310 1152 CURVE SMOOTH",
+"200 1152 LINE",
+"200 1355 LINE",
+"8 1355 LINE",
+"8 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"200 954 LINE",
+"210 954 LINE",
+"210 196 LINE",
+"200 196 LINE"
+);
+}
+);
+width = 411;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "4600935A-B46E-4FA1-B0D6-4EE271FC1662";
+visible = 1;
+width = 600;
+},
+{
+backgroundImage = {
+crop = "{{0, 0}, {524, 740}}";
+imagePath = "/Users/davidreca/Library/Mobile Documents/com~apple~CloudDocs/01_proyectos/01_académicos/01_tfe/03_Desarrollo/01_Digital/02_Práctica/04_Büro/00_Recursos/Captura de pantalla 2018-06-26 a las 15.57.34.png";
+locked = "1";
+transform = "{2.76757, 0, 0, 2.76757, 0, -686}";
+};
+layerId = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+paths = (
+{
+closed = 1;
+nodes = (
+"310 0 LINE SMOOTH",
+"362 0 OFFCURVE",
+"405 43 OFFCURVE",
+"405 95 CURVE SMOOTH",
+"405 376 LINE SMOOTH",
+"405 428 OFFCURVE",
+"362 471 OFFCURVE",
+"310 471 CURVE SMOOTH",
+"200 471 LINE",
+"200 1355 LINE",
+"8 1355 LINE",
+"8 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"200 272 LINE",
+"210 272 LINE",
+"210 196 LINE",
+"200 196 LINE"
+);
+}
+);
+width = 411;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "CC6B688D-1503-45C7-857B-764D5532785F";
+width = 600;
+}
+);
+unicode = 0062;
+},
+{
+glyphname = o;
+lastChange = "2018-09-03 11:45:09 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 0}, {524, 740}}";
+imagePath = "/Users/davidreca/Library/Mobile Documents/com~apple~CloudDocs/01_proyectos/01_académicos/01_tfe/03_Desarrollo/01_Digital/02_Práctica/04_Büro/00_Recursos/Captura de pantalla 2018-06-26 a las 15.57.34.png";
+locked = "1";
+transform = "{2.768, 0, 0, 2.768, -1036, -686}";
+};
+layerId = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+paths = (
+{
+closed = 1;
+nodes = (
+"311 0 LINE SMOOTH",
+"363 0 OFFCURVE",
+"406 43 OFFCURVE",
+"406 95 CURVE SMOOTH",
+"406 376 LINE SMOOTH",
+"406 428 OFFCURVE",
+"364 471 OFFCURVE",
+"311 471 CURVE SMOOTH",
+"104 471 LINE SMOOTH",
+"52 471 OFFCURVE",
+"9 428 OFFCURVE",
+"9 376 CURVE SMOOTH",
+"9 95 LINE SMOOTH",
+"9 43 OFFCURVE",
+"52 0 OFFCURVE",
+"104 0 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"204 274 LINE",
+"213 274 LINE",
+"213 198 LINE",
+"204 198 LINE"
+);
+}
+);
+width = 411;
+},
+{
+layerId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+paths = (
+{
+closed = 1;
+nodes = (
+"310 0 LINE SMOOTH",
+"362 0 OFFCURVE",
+"405 43 OFFCURVE",
+"405 95 CURVE SMOOTH",
+"404 1057 LINE",
+"404 1109 OFFCURVE",
+"361 1152 OFFCURVE",
+"309 1152 CURVE SMOOTH",
+"103 1152 LINE SMOOTH",
+"51 1152 OFFCURVE",
+"8 1109 OFFCURVE",
+"8 1057 CURVE SMOOTH",
+"9 95 LINE SMOOTH",
+"9 43 OFFCURVE",
+"52 0 OFFCURVE",
+"104 0 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"203 956 LINE",
+"212 956 LINE",
+"213 198 LINE",
+"204 198 LINE"
+);
+}
+);
+width = 411;
+}
+);
+unicode = 006F;
+},
+{
+glyphname = r;
+lastChange = "2018-09-03 11:45:53 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 0}, {524, 740}}";
+imagePath = "/Users/davidreca/Library/Mobile Documents/com~apple~CloudDocs/01_proyectos/01_académicos/01_tfe/03_Desarrollo/01_Digital/02_Práctica/04_Büro/00_Recursos/Captura de pantalla 2018-06-26 a las 15.57.34.png";
+locked = "1";
+transform = "{2.768, 0, 0, 2.768, -813, -686}";
+};
+layerId = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+paths = (
+{
+closed = 1;
+nodes = (
+"203 0 LINE",
+"203 275 LINE",
+"224 275 LINE",
+"224 471 LINE",
+"8 471 LINE",
+"8 0 LINE"
+);
+}
+);
+width = 229;
+},
+{
+layerId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+paths = (
+{
+closed = 1;
+nodes = (
+"203 0 LINE",
+"203 956 LINE",
+"224 956 LINE",
+"224 1152 LINE",
+"8 1152 LINE",
+"8 0 LINE"
+);
+}
+);
+width = 229;
+}
+);
+unicode = 0072;
+},
+{
+glyphname = space;
+lastChange = "2018-06-26 14:19:46 +0000";
+layers = (
+{
+layerId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+width = 600;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "4FD31245-F0BE-4A66-8709-5C4AA292B019";
+width = 600;
+},
+{
+layerId = "AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96";
+width = 600;
+},
+{
+associatedMasterId = "3443F240-5BDF-4DAF-8294-94446422B13B";
+layerId = "CC6B688D-1503-45C7-857B-764D5532785F";
+width = 600;
+}
+);
+unicode = 0020;
+}
+);
+instances = (
+{
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+"A,A,A,A,A,A,A,A"
+);
+}
+);
+interpolationCustom = 100;
+instanceInterpolations = {
+"AAD9EC03-8376-4AEA-85E9-72AC7EB7AD96" = 1;
+};
+name = Bajo;
+weightClass = Thin;
+widthClass = "Ultra Condensed";
+},
+{
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+"A,A,A,A,A,A,A,A"
+);
+}
+);
+interpolationCustom = 800;
+interpolationWeight = 800;
+instanceInterpolations = {
+"3443F240-5BDF-4DAF-8294-94446422B13B" = 1;
+};
+name = Alto;
+weightClass = Thin;
+widthClass = "Ultra Condensed";
+}
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}
