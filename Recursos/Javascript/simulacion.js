@@ -19,22 +19,27 @@ function init(){
 	textura();
 }
 
+const margin = 10
+const squareNumber = 8
 //Grosor
-
 function grosor(){
 	var lien = d3.select('#i1');
-	var w=parseInt(lien.style('width'));
 	var h=parseInt(lien.style('height'));
-	var margen = (w - 940)/2;
-	for (var i = 7; i >= 0; i--) {
+	var w=parseInt(lien.style('width'));
+	var x=0;
+	var squareSide = (w-margin)/squareNumber
+	var dis=0;
+	
+	for (var i = 0; i < squareNumber; i++) {
+		var n_width = ((w-dis)*20/w)+5;
 		lien.append("rect")
-		.attr("x",120*i+margen)
-		.attr("y",h-114)
-		.attr("width", 100)
-		.attr("height",100)
+		.attr("x",(squareSide)*i+n_width/2)
+		.attr('y', h/2-squareSide/2+n_width/2)
+		.attr('height',squareSide-n_width-margin)
+		.attr('width',squareSide-n_width-margin)
 		.attr('fill', 'rgba(0,0,0,0)')
 		.attr("stroke","black")
-		.attr("stroke-width",5)
+		.attr("stroke-width",n_width)
 		.attr("id",'_'+i);
 	}
 	
@@ -43,20 +48,23 @@ function cambiaGrosor(e){
 	var lien = d3.select('#i1');
 	var h=parseInt(lien.style('height'));
 	var w=parseInt(lien.style('width'));
-	var margen = (w - 940)/2;
-	var x=parseInt(e.clientX);
-	var dis=[0,0,0,0,0,0,0,0,0,0];
-	for (var i = 7; i >= 0; i--) {
-		dis[i]=	Math.sqrt((lien.select('#_'+i).attr('x')-x)*(lien.select('#_'+i).attr('x')-x));
-		var n_width = ((w-dis[i])*15/w);
-		lien.select("#_"+i).attr("stroke-width",n_width+5)
-			.attr("x",120*i+margen+n_width/2)
-			.attr('y',h-119+n_width/2)
-			.attr('height',100-n_width)
-			.attr('width',100-n_width);
+	var x=parseInt(e.offsetX);
+	var squareSide = (w-margin)/squareNumber
+	var dis=0;
+	for (var i = 0; i < squareNumber; i++) {
+		var loopElem = lien.select('#_'+i)
+		var lienX = loopElem.attr('x')
+
+		dis=Math.sqrt((lienX-x)*(lienX-x));
+		var n_width = ((w-dis)*20/w)+5;
+		
+		loopElem.attr("stroke-width",n_width)
+			.attr("x",(squareSide)*i+n_width/2)
+			.attr('y', h/2-squareSide/2+n_width/2)
+			.attr('height',squareSide-n_width-margin)
+			.attr('width',squareSide-n_width-margin);
 	}
 }
-
 //Altura
 
 function altura(){
