@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>SAMSA</title>
 	<meta charset="UTF-8">
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
 
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
-        
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 	<link rel="stylesheet" href="../mycss.css">
 	<script type="text/javascript" src="../Recursos/Javascript/menu.js"></script>
 	<script type="text/javascript" src="../Recursos/Javascript/control-fuente.js"></script>
 
 </head>
+
 <body>
 	<div class="container-fluid">
 
@@ -23,46 +26,50 @@
 		<div class="row barra-sup">
 			<div class="col-lg-4 col-md-4 col-12 borde-derecho barra"> SAMSA Variable Font </div>
 			<div class="col-lg-4 col-md-4 col-12 borde-derecho barra"> EXPLORATORIO </div>
-			<div class="col-lg-4 col-md-4 col-12 derecha barra boton-p" id="botMenu" onclick="extenderMenu()">  <img class="icono" src="../Recursos/Iconos/menu.png"> </div>
+			<div class="col-lg-4 col-md-4 col-12 derecha barra boton-p" id="botMenu" onclick="extenderMenu()"> <img class="icono"
+				 src="../Recursos/Iconos/menu.png"> </div>
 		</div>
 
 		<!-- Menu -->
 		<div class="row" style="height:100%">
-			<div class="col-lg-4 col-md-6 col-12 menu" id="menu" >
-					<div class="row"> 
-						<div class="barra col boton-p"> PROYECTO</div>
+			<div class="col-lg-4 col-md-6 col-12 menu" id="menu">
+				<div class="row">
+					<div class="barra col boton-p">
+						<p class="texto">PROYECTO</p>
 					</div>
-					<div class="row"> 
-						<div class="barra col boton-p"> TIPOGRAFÍA </div>
-					</div>
-					<div class="row"> 
-						<div class="barra col boton-p"> EXPLORATORIO </div>
-					</div>
-					<div class="row"> 
-						<div class="barra col boton-p"> CONTACTO </div>
+				</div>
+				<div class="row">
+					<div class="barra col boton-p"><a href="../SAMSA/index.html"> TIPOGRAFÍA </a></div>
+				</div>
+				<div class="row">
+					<div class="barra col boton-p"><a href="../Exploratorio/index.html"> EXPLORATORIO </a></div>
+				</div>
+				<div class="row">
+					<div class="barra col boton-p"> CONTACTO </div>
+				</div>
+				<div class="row">
+					<div class="col barra boton-p"> REDES SOCIALES </div>
+					<div class="col barra boton-p borde-izquierdo"> Facebook </div>
+				</div>
+				<div class="row">
+					<div class="col"> </div>
+					<div class="col barra boton-p borde-izquierdo"> Instagram </div>
+				</div>
+				<div class="row">
+					<div class="col"> </div>
+					<div class="col barra boton-p borde-izquierdo"> Twitter </div>
+				</div>
+				<div class="bajo">
+					<div class="row">
+						<div class="barra col boton-p borde-alto"> ES </div>
 					</div>
 					<div class="row">
-						<div class="col barra boton-p"> REDES SOCIALES </div>
-						<div class="col barra boton-p borde-izquierdo"> Facebook </div>
+						<div class="barra col boton-p"> EN</div>
 					</div>
-					<div class="row">
-						<div class="col"> </div>
-						<div class="col barra boton-p borde-izquierdo"> Instagram </div>
-					</div>
-					<div class="row">
-						<div class="col"> </div>
-						<div class="col barra boton-p borde-izquierdo"> Twitter </div>
-					</div>
-					<div class="bajo">
-						<div class="row"> 
-							<div class="barra col boton-p borde-alto"> ES </div>
-						</div>
-						<div class="row"> 
-							<div class="barra col boton-p"> EN</div>
-						</div>
-					</div>
+				</div>
 			</div>
 		</div>
+
 
 		<!-- Zona principal -->
 
@@ -70,8 +77,9 @@
 
 
 		<div class="row barra-inf borde-alto">
-			<div class="col-lg-12 barra boton-p" id="botMenu3" onclick="extenderMenu3()"> Configuracion <img class="icono" src="../Recursos/Iconos/menu.png"> </div>
-			<div class="row menu3"id="menu3">
+			<div class="col-lg-12 barra boton-p" id="botMenu3" onclick="extenderMenu3()"> Configuracion <img class="icono" src="../Recursos/Iconos/menu.png">
+			</div>
+			<div class="row menu3" id="menu3">
 				<div class="col-lg-4 barra borde-derecho">Variables</div>
 				<div class="col-lg-2 barra borde-derecho">Color de la fuente</div>
 				<div class="col-lg-2 barra borde-derecho">Color del fondo</div>
@@ -83,16 +91,38 @@
 					</div>
 				</div>
 				<div class="col-lg-2 borde-derecho">
-					<div class="row"><div class="col barra borde-derecho" onclick="color('grey','')">Gris</div><div class=" barra col" onclick="color('white','')">Blanco</div></div>
-					<div class="row"><div class="col barra borde-derecho" onclick="color('black','')">Negro</div><div class=" barra col"><input type="text" name="" id="coltex"></div></div>
+					<div class="row">
+						<div class="col barra borde-derecho" onclick="color('grey','')">Gris</div>
+						<div class=" barra col" onclick="color('white','')">Blanco</div>
+					</div>
+					<div class="row">
+						<div class="col barra borde-derecho" onclick="color('black','')">Negro</div>
+						<div class=" barra col"><input type="text" name="" id="coltex"></div>
+					</div>
 				</div>
 				<div class="col-lg-2 borde-derecho">
-					<div class="row"><div class="col barra borde-derecho " onclick="color('','grey')">Gris</div><div class=" barra col deshab">Blanco</div></div>
-					<div class="row"><div class="col barra borde-derecho " onclick="color('','black')">Negro</div><div class=" barra col deshab">Custom</div></div>
+					<div class="row">
+						<div class="col barra borde-derecho " onclick="color('','grey')">Gris</div>
+						<div class=" barra col deshab">Blanco</div>
+					</div>
+					<div class="row">
+						<div class="col barra borde-derecho " onclick="color('','black')">Negro</div>
+						<div class=" barra col deshab">Custom</div>
+					</div>
 				</div>
 				<div class="col-lg-4 borde-derecho">
-					<div class="row"><div class="col barra borde-derecho deshab">Teclado</div><div class="col barra borde-derecho deshab">Raton</div><div class="col barra borde-derecho deshab">Trackpad</div><div class="col barra borde-derecho deshab">Cámara</div></div>
-					<div class="row"><div class="col barra borde-derecho deshab">Micrófono</div><div class="col barra borde-derecho deshab">Pantalla</div><div class="col barra borde-derecho deshab">Orientacion</div><div class="col barra borde-derecho deshab">Iluminación</div></div>
+					<div class="row">
+						<div class="col barra borde-derecho deshab">Teclado</div>
+						<div class="col barra borde-derecho deshab">Raton</div>
+						<div class="col barra borde-derecho deshab">Trackpad</div>
+						<div class="col barra borde-derecho deshab">Cámara</div>
+					</div>
+					<div class="row">
+						<div class="col barra borde-derecho deshab">Micrófono</div>
+						<div class="col barra borde-derecho deshab">Pantalla</div>
+						<div class="col barra borde-derecho deshab">Orientacion</div>
+						<div class="col barra borde-derecho deshab">Iluminación</div>
+					</div>
 				</div>
 			</div>
 
@@ -100,4 +130,5 @@
 		</div>
 	</div>
 </body>
+
 </html>
