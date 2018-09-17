@@ -17,6 +17,7 @@ function init(){
 	formacion();
 	asoDiso();
 	textura();
+	giro2();
 }
 
 const margin = 10
@@ -535,6 +536,34 @@ function cambiaTextura(e){
 			lien.select('#_l'+(2+1000*i)).attr('stroke-width',ancho_lin/2+2+n*ancho_lin/2);
 		}
 	}
+}
+
+function giro2(){
+	var lien = d3.select('#i16');
+	var h=parseInt(lien.style('height'));
+	lien.append("rect")
+		.attr("x",28)
+		.attr("y",h-124)
+		.attr("width", 100)
+		.attr("height",100)
+		.attr('fill', 'rgba(0,0,0,0)')
+		.attr("stroke","black")
+		.attr("stroke-width",20)
+		.attr("id",'_'+70);
+}
+
+function cambiaGiroXY(e){
+	var lien = d3.select('#i16');
+	var h=parseInt(lien.style('height'));
+	var w=parseInt(lien.style('width'));
+	var x=parseInt(e.offsetX);
+	var y=parseInt(e.offsetY);
+	var disx = Math.sqrt((x)*(x));
+	var disy = Math.sqrt((y)*(y));
+	var nx = ((disx)/w);
+	var ny = ((disy)/w);
+	// lien.select("#_"+70).attr('transform','translate('+(w-156)*n+', 0)rotate('+(90*n)+',78,'+(h-74)+')');
+	lien.select("#_"+70).attr('transform','translate('+(w-156)*nx+','+(y-200)+')rotate('+(90*nx)+',78,'+(h-74)+')');
 }
 
 /*const container = document.getElementById('formcontainer');

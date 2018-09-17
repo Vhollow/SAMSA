@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>SAMSA</title>
 	<meta charset="UTF-8">
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
 
 	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" >
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 	<script src="https://d3js.org/d3.v5.min.js"></script>
-        
+
 	<link rel="stylesheet" href="../mycss.css">
 	<script type="text/javascript" src="../Recursos/Javascript/menu.js"></script>
 
 </head>
+
 <body onload="init()">
 	<div class="container-fluid">
 
@@ -26,22 +29,23 @@
 		<div class="row barra-sup">
 			<div class="col-lg-4 col-md-4 col-12 borde-derecho barra"><a href="../"> SAMSA Variable Font </a></div>
 			<div class="col-lg-4 col-md-4 col-12 borde-derecho barra"> TIPOGRAFÍA </div>
-			<div class="col-lg-4 col-md-4 col-12 derecha barra boton-p" id="botMenu" onclick="extenderMenu()">  <img class="icono" src="../Recursos/Iconos/menu.png"> </div>
+			<div class="col-lg-4 col-md-4 col-12 derecha barra boton-p" id="botMenu" onclick="extenderMenu()"> <img class="icono"
+				 src="../Recursos/Iconos/menu.png"> </div>
 		</div>
 
 		<!-- Menu -->
 		<div class="row" style="height:100%">
-			<div class="col-lg-4 col-md-6 col-12 menu" id="menu" >
-				<div class="row"> 
+			<div class="col-lg-4 col-md-6 col-12 menu" id="menu">
+				<div class="row">
 					<div class="barra col boton-p"> PROYECTO</div>
 				</div>
-				<div class="row"> 
+				<div class="row">
 					<div class="barra col boton-p"> TIPOGRAFÍA </div>
 				</div>
-				<div class="row"> 
-					<div class="barra col boton-p"><a href="../Exploratorio/index.html"> EXPLORATORIO  </a></div>
+				<div class="row">
+					<div class="barra col boton-p"><a href="../Exploratorio/index.html"> EXPLORATORIO </a></div>
 				</div>
-				<div class="row"> 
+				<div class="row">
 					<div class="barra col boton-p"> CONTACTO </div>
 				</div>
 				<div class="row">
@@ -57,10 +61,10 @@
 					<div class="col barra boton-p borde-izquierdo"> Twitter </div>
 				</div>
 				<div class="bajo">
-					<div class="row"> 
+					<div class="row">
 						<div class="barra col boton-p borde-alto"> ES </div>
 					</div>
-					<div class="row"> 
+					<div class="row">
 						<div class="barra col boton-p"> EN</div>
 					</div>
 				</div>
@@ -70,11 +74,13 @@
 
 		<!-- Zona principal -->
 		<div class="row zona-pr">
-			<div class="col-lg-4 elem-cuerpo3 borde-derecho" style="padding-top: 10px;"> SAMSA es una tipografía variable de caracter educativo capaz de mostrar las posibilidades formales que ofrece la tecnología OpenType Variable Fonts</div>
+			<div class="col-lg-4 elem-cuerpo3 borde-derecho" style="padding-top: 10px;"> SAMSA es una tipografía variable de
+				caracter educativo capaz de mostrar las posibilidades formales que ofrece la tecnología OpenType Variable Fonts</div>
 			<div class="col-lg-4 elem-cuerpo3 borde-derecho">
 				<div class="row">
 					<div class="col barra "> Visualizacion </div>
-					<div class="col barra boton-p borde-izquierdo"> Positivo <img class="icono" src="../Recursos/Iconos/Abrir.png"> </div>
+					<div class="col barra boton-p borde-izquierdo"> Positivo <img class="icono" src="../Recursos/Iconos/Abrir.png">
+					</div>
 				</div>
 			</div>
 			<div class="col-lg-4 elem-cuerpo3"></div>
@@ -181,7 +187,7 @@
 						<legend>Reorganización</legend>
 					</fieldset>
 				</form>
-				<div class="svg-container">		
+				<div class="svg-container">
 					<svg id="i10" onmousemove="cambiaReorga(event)"></svg>
 				</div>
 			</div>
@@ -202,35 +208,71 @@
 			<div class="col-lg-8 col-md-6 col-12 elem-cuerpo2">
 				<div class="row">
 					<div class="col-12 elem-cuerpo">
-							<form>
-									<fieldset>
-										<legend>Generación</legend>
-									</fieldset>
-								</form>
+						<form>
+							<fieldset>
+								<legend>Generación</legend>
+							</fieldset>
+						</form>
 						<svg id="i12" onmousemove="cambiaFormacion(event)"></svg>
 					</div>
 					<div class="col-12 elem-cuerpo">
-							<form>
-									<fieldset>
-										<legend>Asociación/disociación</legend>
-									</fieldset>
-								</form>
+						<form>
+							<fieldset>
+								<legend>Asociación/disociación</legend>
+							</fieldset>
+						</form>
 						<svg id="i13" onmousemove="cambiaAsoDiso(event)"></svg>
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6 col-12 borde-izquierdo elem-cuerpo2">
-					<form>
-							<fieldset>
-								<legend>Textura</legend>
-							</fieldset>
-						</form>
+				<form>
+					<fieldset>
+						<legend>Textura</legend>
+					</fieldset>
+				</form>
 				<svg id="i14" onmousemove="cambiaTextura(event)"></svg>
 			</div>
+
+			<!-- Octava fila -->
+			<div class="col-lg-4 col-md-6 col-12 borde-derecho elem-cuerpo2">
+				<form>
+					<fieldset>
+						<legend>Textura</legend>
+					</fieldset>
+				</form>
+				<svg id="i15" onmousemove="cambiaTextura(event)"></svg>
+			</div>
+
+			<div class="col-lg-8 col-md-6 col-12 elem-cuerpo2">
+				<div class="row">
+					<div class="col-12 elem-cuerpo">
+						<form>
+							<fieldset>
+								<legend>Giro + Posición X</legend>
+							</fieldset>
+						</form>
+						<svg id="i16" onmousemove="cambiaGiroXY(event)"></svg>
+					</div>
+					<div class="col-12 elem-cuerpo">
+						<form>
+							<fieldset>
+								<legend>Asociación/disociación</legend>
+							</fieldset>
+						</form>
+						<svg id="i17" onmousemove="cambiaAsoDiso(event)"></svg>
+					</div>
+				</div>
+			</div>
+
+
+
+
 
 		</div>
 	</div>
 
 	<script type="text/javascript" src="../Recursos/Javascript/simulacion.js"></script>
 </body>
+
 </html>
