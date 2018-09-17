@@ -208,3 +208,14 @@ div a{
 .elem-cuerpo3>.svg-container{
 	height: 290px;
 }
+.lateral{
+	position: absolute;
+	transform: rotate(270deg) translateX(-50%);
+}
+.elem-cuerpo>.lateral{
+	width: 290px;
+}
+.elem-cuerpo2>.lateral{
+	left: -295px;
+	width: 620px;
+}
