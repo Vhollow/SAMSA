@@ -81,41 +81,152 @@
 
 			<!-- Primera fila -->
 			<div class="col-12 elem-cuerpo">
-				<svg id="i1" onmousemove="cambiaGrosor(event)"></svg>
+				<form>
+					<fieldset>
+						<legend>Grosor</legend>
+					</fieldset>
+				</form>
+				<div class="svg-container">
+					<svg id="i1" onmousemove="cambiaGrosor(event)"></svg>
+				</div>
 			</div>
 
 			<!-- Segunda fila -->
-			<div class="col-lg-4 col-md-6 col-12 elem-cuerpo2"><svg id="i2" onmousemove="cambiaAltura(event)"></svg></div>
-			<div class="col-lg-8 col-md-6 col-12 elem-cuerpo2 borde-izquierdo"><svg id="i3" onmousemove="cambiaAnchura(event)"></svg></div>
+			<div class="col-lg-4 col-md-6 col-12 elem-cuerpo2">
+				<div class="svg-container">
+					<svg id="i2" onmousemove="cambiaAltura(event)"></svg>
+				</div>
+			</div>
+			<div class="col-lg-8 col-md-6 col-12 elem-cuerpo2 borde-izquierdo">
+				<form>
+					<fieldset>
+						<legend>Anchura</legend>
+					</fieldset>
+				</form>
+				<div class="svg-container">
+					<svg id="i3" onmousemove="cambiaAnchura(event)"></svg>
+				</div>
+			</div>
 
 			<!-- Tercera fila -->
-			<div class="col-lg-4 col-md-6 col-12 elem-cuerpo2"><svg id="i4" onmousemove="cambiaGroAn(event)"></svg></div>
-			<div class="col-lg-8 col-md-6 col-12 elem-cuerpo2 borde-izquierdo"><svg id="i5" onmousemove="cambiaAnAl(event)"></svg></div>
+			<div class="col-lg-4 col-md-6 col-12 elem-cuerpo2">
+				<form>
+					<fieldset>
+						<legend>Anchura</legend>
+					</fieldset>
+				</form>
+				<div class="svg-container">
+					<svg id="i4" onmousemove="cambiaGroAn(event)"></svg>
+				</div>
+			</div>
+			<div class="col-lg-8 col-md-6 col-12 elem-cuerpo2 borde-izquierdo">
+				<form>
+					<fieldset>
+						<legend>Anchura</legend>
+					</fieldset>
+				</form>
+				<div class="svg-container">
+					<svg id="i5" onmousemove="cambiaAnAl(event)"></svg>
+				</div>
+			</div>
 
 			<!-- Cuarta fila -->
-			<div class="col-lg-8 col-md-6 col-12 elem-cuerpo2"><svg id="i6" onmousemove="cambiaTamaño(event)"></svg></div>
-			<div class="col-lg-4 col-md-6 col-12 elem-cuerpo2 borde-izquierdo"><svg id="i7" onmousemove="cambiaItalica(event)"></svg></div>
+			<div class="col-lg-8 col-md-6 col-12 elem-cuerpo2">
+				<form>
+					<fieldset>
+						<legend>Tamaño</legend>
+					</fieldset>
+				</form>
+				<div class="svg-container">
+					<svg id="i6" onmousemove="cambiaTamaño(event)"></svg>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-12 elem-cuerpo2 borde-izquierdo">
+				<form>
+					<fieldset>
+						<legend>Cursiva</legend>
+					</fieldset>
+				</form>
+				<div class="svg-container">
+					<svg id="i7" onmousemove="cambiaItalica(event)"></svg>
+				</div>
+			</div>
 
 			<!-- Quinta fila -->
 			<div class="col-lg-8 col-md-6 col-12 elem-cuerpo2">
-				<div class="row">
-					<div class="col-12 elem-cuerpo"><svg id="i8" onmousemove="cambiaTransfigura(event)"></svg></div>
-					<div class="col-12 elem-cuerpo"><svg id="i9" onmousemove="cambiaGiro(event)"></svg>></div>
+				<div class="col-12 elem-cuerpo">
+					<form>
+						<fieldset>
+							<legend>Transfiguración</legend>
+						</fieldset>
+					</form>
+					<div class="svg-container">
+						<svg id="i8" onmousemove="cambiaTransfigura(event)"></svg>
+					</div>
+				</div>
+				<div class="col-12 elem-cuerpo">
+					<form>
+						<fieldset>
+							<legend>Giro</legend>
+						</fieldset>
+					</form>
+					<div class="svg-container">
+						<svg id="i9" onmousemove="cambiaGiro(event)"></svg>
+					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-6 col-12 borde-izquierdo elem-cuerpo2"><svg id="i10" onmousemove="cambiaReorga(event)"></svg></div>
+			<div class="col-lg-4 col-md-6 col-12 borde-izquierdo elem-cuerpo2">
+				<form>
+					<fieldset>
+						<legend>Reorganización</legend>
+					</fieldset>
+				</form>
+				<div class="svg-container">		
+					<svg id="i10" onmousemove="cambiaReorga(event)"></svg>
+				</div>
+			</div>
 
 			<!-- Sexta fila -->
-			<div class="col-12 elem-cuerpo2"><svg id="i11" onmousemove="cambiaPosicion(event)"></svg></div>
+			<div class="col-12 elem-cuerpo2">
+				<form>
+					<fieldset>
+						<legend>Posición Y</legend>
+					</fieldset>
+				</form>
+				<div class="svg-container">
+					<svg id="i11" onmousemove="cambiaPosicion(event)"></svg>
+				</div>
+			</div>
 
 			<!-- Septima fila -->
 			<div class="col-lg-8 col-md-6 col-12 elem-cuerpo2">
 				<div class="row">
-					<div class="col-12 elem-cuerpo"><svg id="i12" onmousemove="cambiaFormacion(event)"></svg></div>
-					<div class="col-12 elem-cuerpo"><svg id="i13" onmousemove="cambiaAsoDiso(event)"></svg>></div>
+					<div class="col-12 elem-cuerpo">
+							<form>
+									<fieldset>
+										<legend>Generación</legend>
+									</fieldset>
+								</form>
+						<svg id="i12" onmousemove="cambiaFormacion(event)"></svg>
+					</div>
+					<div class="col-12 elem-cuerpo">
+							<form>
+									<fieldset>
+										<legend>Asociación/disociación</legend>
+									</fieldset>
+								</form>
+						<svg id="i13" onmousemove="cambiaAsoDiso(event)"></svg>
+					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-6 col-12 borde-izquierdo elem-cuerpo2"><svg id="i14" onmousemove="cambiaTextura(event)"></svg></div>
+			<div class="col-lg-4 col-md-6 col-12 borde-izquierdo elem-cuerpo2">
+					<form>
+							<fieldset>
+								<legend>Textura</legend>
+							</fieldset>
+						</form>
+				<svg id="i14" onmousemove="cambiaTextura(event)"></svg>
+			</div>
 
 		</div>
 	</div>
