@@ -15,7 +15,7 @@ function ocultarMenu() {
 }
 
 function extenderMenu2() {
-	document.getElementById('menu2').style.height='50%';
+	document.getElementById('menu2').style.maxHeight='200px';
 	document.getElementById('botMenu2').setAttribute('onclick','ocultarMenu2()');
 }
 
@@ -24,7 +24,7 @@ function ocultarMenu2() {
 	document.getElementById('botMenu2').setAttribute('onclick','extenderMenu2()');
 }
 function extenderMenu3() {
-	document.getElementById('menu3').style.height='5%';
+	document.getElementById('menu3').style.height='100%';
 	document.getElementById('botMenu3').setAttribute('onclick','ocultarMenu3()');
 }
 

@@ -18,10 +18,10 @@ function color(col,bg) {
 	}
 }
 window.onload=()=>{
-var col = document.querySelector('#coltex')
-col.addEventListener('change', function(){
-	color(col.value,'');		
-});
+// var col = document.querySelector('#coltex')
+// col.addEventListener('change', function(){
+// 	color(col.value,'');		
+// });
 
 
 
