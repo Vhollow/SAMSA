@@ -170,7 +170,7 @@ function cambiaGroAn(e){
 		var sumj=0;
 		for (var j = 0; j <= 4; j++) {
 			sumj=sumj+j;
-			lien.select('#_'+200+10*i+j).attr("stroke-width",n_width+10).attr('width',40*(j+1)-n_width+(j+1)*dis2/10).attr("x",20*j+40*sumj+28+(n_width/2)+(sumj)*dis2/10)
+			lien.select('#_'+200+10*i+j).attr("stroke-width",n_width+10).attr('width',41*(j+1)-n_width+(j+1)*dis2/10).attr("x",15.8*j+40*sumj+28+(n_width/2)+(sumj)*dis2/10)
 			.attr('y',h-104-94*i+n_width/2)
 			.attr('height',80-n_width);
 		}
