@@ -33,9 +33,19 @@ body{
 	line-height: 18.2px;
 	letter-spacing: 0.36px;
 }
+legend {
+	margin: 0px;
+	padding: 10px;
+	text-align: center;
+	width: auto !important;
+}
+fieldset {
+	height: 40px;
+	border-top: solid black 1px;
+}
 svg{
 	width: 100%;
-	height: calc(100% - 50px);
+	height: 95%;
 }
 div a{
 	display: block;
@@ -95,19 +105,22 @@ div a{
 	text-align: right;
 }
 .elem-cuerpo{
-	min-height: 400px;
+	min-height: 330px;
 	border-bottom: 1px solid black;
 	background-color: white;
+	overflow: hidden;
 }
 .elem-cuerpo2{
 	height: 660px;
 	border-bottom: 1px solid black;
 	background-color: white;
+	overflow: hidden;
 }
 .elem-cuerpo3{
 	height: 176px;
 	border-bottom: 1px solid black;
 	background-color: white;
+	overflow: hidden;
 }
 .icono{
 	height: 14px;
@@ -186,12 +199,12 @@ div a{
 .deshab{
 	color: gray;
 }
-
-legend {
-	padding: 10px;
-	text-align: center;
-	width: auto !important;
+.elem-cuerpo .svg-container{
+	height: 290px;
 }
-fieldset {
-	border-top: solid black 1px;
+.elem-cuerpo2 .svg-container{
+	height: 620px;
+}
+.elem-cuerpo3 .svg-container{
+	height: 290px;
 }
