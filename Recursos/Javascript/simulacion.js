@@ -18,6 +18,7 @@ function init(){
 	asoDiso();
 	textura();
 	giro2();
+	formacion2();
 }
 
 const margin = 10
@@ -562,9 +563,61 @@ function cambiaGiroXY(e){
 	var disy = Math.sqrt((y)*(y));
 	var nx = ((disx)/w);
 	var ny = ((disy)/w);
-	// lien.select("#_"+70).attr('transform','translate('+(w-156)*n+', 0)rotate('+(90*n)+',78,'+(h-74)+')');
+	if(y>165) y=165;
+	if(y<50) y=50;
+
 	lien.select("#_"+70).attr('transform','translate('+(w-156)*nx+','+(y-200)+')rotate('+(90*nx)+',78,'+(h-74)+')');
 }
+
+function formacion2(){
+	var lien = d3.select('#i17');
+	var w=parseInt(lien.style('width'));
+	var h=parseInt(lien.style('height'));
+	var margen = (w - 940)/2;
+	for (var i = 7; i >= 0; i--) {
+		var puntos=[78+120*i,h-40,28+120*i,h-40];
+		lien.append('polyline').attr('stroke-width',10).attr('stroke','black').attr("id",'_l'+10*i).attr('points',puntos).attr('fill','none');
+	}
+}
+
+function cambiaFormacion2(e){
+	var lien = d3.select('#i17');
+	var h=parseInt(lien.style('height'));
+	var w=parseInt(lien.style('width'));
+	var x=parseInt(e.clientX);
+	var dis=[0,0,0,0,0,0,0,0,0,0];
+	for (var i = 7; i >= 0; i--) {
+		dis[i]=	Math.sqrt((78+120*i-x)*(78+120*i-x));
+		var n = ((dis[i])/w/1.5);
+		var puntos=[78+120*i,h-40,28+120*i,h-40];
+		if(n<0.125) {
+			var puntos=[78+120*i,h-40,28+120*i,h-40];
+		}
+		else if(n<0.375) {
+			n=(n-0.125)*4;
+			var puntos=[78+120*i,h-40,28+120*i,h-40,28+120*i,h-40-100*n];
+		}else if(n<0.625) {
+			n=(n-0.375)*4;
+			var puntos=[78+120*i,h-40,28+120*i,h-40,28+120*i,h-140,28+120*i+100*n,h-140];
+		}else if(n<0.875) {
+			n=(n-0.625)*4;
+			var puntos=[78+120*i,h-40,28+120*i,h-40,28+120*i,h-140,28+120*i+100,h-140,28+120*i+100,h-140+100*n];
+		}else if(n<0.9) {
+			n=(n-0.875)*8;
+			var puntos=[78+120*i,h-40,28+120*i,h-40,28+120*i,h-140,28+120*i+100,h-140,28+120*i+100,h-40,128+120*i-50*n,h-40];
+		}else if(n<1) {
+			n=(n-0.875)*8;
+			var puntos=[78+120*i,h-40,28+120*i,h-40,28+120*i,h-140,28+120*i+100,h-140,28+120*i+100,h-40,128+120*i-50,h-40];
+		}
+		lien.select('#_l'+10*i).attr('points',puntos);
+		lien.select('#_l'+10*i).attr('stroke-width',x/100);
+		lien.select('#_l'+10*i).attr('width',x/100);
+	
+
+		
+	}
+}
+
 
 /*const container = document.getElementById('formcontainer');
 function setStyles (property, value) {
